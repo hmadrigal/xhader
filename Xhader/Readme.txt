@@ -1,0 +1,9 @@
+(c) Copyright Microsoft Corporation.
+This source is subject to the Microsoft Public License (Ms-PL).
+Please see http://go.microsoft.com/fwlink/?LinkID=131993 for details.
+All other rights reserved.
+
+Original Source: 
+http://www.ningzhang.org/2008/12/28/design-time-feature-implementation-in-silverlight-toolkit/
+
+
