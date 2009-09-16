@@ -49,17 +49,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Silverlight", "Silverlight"
 		ExternalLibraries\Silverlight\System.Windows.dll = ExternalLibraries\Silverlight\System.Windows.dll
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xhader.Tests", "Xhader.Tests\Xhader.Tests.csproj", "{21D9C2B7-EB2E-4B46-99CC-D64CE5A627CA}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9FE4A457-6E9F-4D15-AAAA-AFE1E3F2712B}"
 	ProjectSection(SolutionItems) = preProject
 		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
 		Xhader.vsmdi = Xhader.vsmdi
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLTransitionEffects.Design", "SLTransitionEffects.Design\SLTransitionEffects.Design.csproj", "{D3D9D1CD-0719-4718-870C-D792F06DD4BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTransitionEffects.Design", "WPFTransitionEffects.Design\WPFTransitionEffects.Design.csproj", "{1DF52744-9F45-4E6A-9C3C-35EA4D0A1771}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 11
+		SccNumberOfProjects = 12
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://tfs09.codeplex.com/
 		SccLocalPath0 = .
@@ -91,15 +93,18 @@ Global
 		SccProjectTopLevelParentUniqueName7 = Xhader.sln
 		SccProjectName7 = ExternalSourceCode/WPFSLFx/WPF/TransitionEffects
 		SccLocalPath7 = ExternalSourceCode\\WPFSLFx\\WPF\\TransitionEffects
-		SccProjectUniqueName8 = Xhader.Tests\\Xhader.Tests.csproj
-		SccProjectName8 = Xhader.Tests
-		SccLocalPath8 = Xhader.Tests
-		SccProjectUniqueName9 = Xhader.SlFx.Design\\SLShaderEffectLibrary.Design.csproj
-		SccProjectName9 = Xhader.SlFx.Design
-		SccLocalPath9 = Xhader.SlFx.Design
-		SccProjectUniqueName10 = Xhader.WpfFx.Design\\WPFShaderEffectLibrary.Design.csproj
-		SccProjectName10 = Xhader.WpfFx.Design
-		SccLocalPath10 = Xhader.WpfFx.Design
+		SccProjectUniqueName8 = Xhader.SlFx.Design\\SLShaderEffectLibrary.Design.csproj
+		SccProjectName8 = Xhader.SlFx.Design
+		SccLocalPath8 = Xhader.SlFx.Design
+		SccProjectUniqueName9 = Xhader.WpfFx.Design\\WPFShaderEffectLibrary.Design.csproj
+		SccProjectName9 = Xhader.WpfFx.Design
+		SccLocalPath9 = Xhader.WpfFx.Design
+		SccProjectUniqueName10 = SLTransitionEffects.Design\\SLTransitionEffects.Design.csproj
+		SccProjectName10 = SLTransitionEffects.Design
+		SccLocalPath10 = SLTransitionEffects.Design
+		SccProjectUniqueName11 = WPFTransitionEffects.Design\\WPFTransitionEffects.Design.csproj
+		SccProjectName11 = WPFTransitionEffects.Design
+		SccLocalPath11 = WPFTransitionEffects.Design
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Xhader.vsmdi
@@ -145,10 +150,14 @@ Global
 		{497DF1F0-A876-402D-BCB3-6CBC14C62F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{497DF1F0-A876-402D-BCB3-6CBC14C62F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{497DF1F0-A876-402D-BCB3-6CBC14C62F1E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{21D9C2B7-EB2E-4B46-99CC-D64CE5A627CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21D9C2B7-EB2E-4B46-99CC-D64CE5A627CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21D9C2B7-EB2E-4B46-99CC-D64CE5A627CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21D9C2B7-EB2E-4B46-99CC-D64CE5A627CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D9D1CD-0719-4718-870C-D792F06DD4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D9D1CD-0719-4718-870C-D792F06DD4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D9D1CD-0719-4718-870C-D792F06DD4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D9D1CD-0719-4718-870C-D792F06DD4BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DF52744-9F45-4E6A-9C3C-35EA4D0A1771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF52744-9F45-4E6A-9C3C-35EA4D0A1771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF52744-9F45-4E6A-9C3C-35EA4D0A1771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF52744-9F45-4E6A-9C3C-35EA4D0A1771}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
