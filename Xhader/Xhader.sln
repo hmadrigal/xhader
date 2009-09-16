@@ -59,9 +59,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLTransitionEffects.Design"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTransitionEffects.Design", "WPFTransitionEffects.Design\WPFTransitionEffects.Design.csproj", "{1DF52744-9F45-4E6A-9C3C-35EA4D0A1771}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "XhaderEffectLibrarySetup", "XhaderEffectLibrarySetup\XhaderEffectLibrarySetup.vdproj", "{71B3F937-EB23-4187-9974-97F2BBD098EC}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 12
+		SccNumberOfProjects = 13
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://tfs09.codeplex.com/
 		SccLocalPath0 = .
@@ -105,6 +107,9 @@ Global
 		SccProjectUniqueName11 = WPFTransitionEffects.Design\\WPFTransitionEffects.Design.csproj
 		SccProjectName11 = WPFTransitionEffects.Design
 		SccLocalPath11 = WPFTransitionEffects.Design
+		SccProjectUniqueName12 = XhaderEffectLibrarySetup\\XhaderEffectLibrarySetup.vdproj
+		SccProjectName12 = XhaderEffectLibrarySetup
+		SccLocalPath12 = XhaderEffectLibrarySetup
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Xhader.vsmdi
@@ -158,6 +163,8 @@ Global
 		{1DF52744-9F45-4E6A-9C3C-35EA4D0A1771}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DF52744-9F45-4E6A-9C3C-35EA4D0A1771}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DF52744-9F45-4E6A-9C3C-35EA4D0A1771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B3F937-EB23-4187-9974-97F2BBD098EC}.Debug|Any CPU.ActiveCfg = Debug
+		{71B3F937-EB23-4187-9974-97F2BBD098EC}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
