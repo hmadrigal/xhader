@@ -29,6 +29,7 @@
     <NoConfig>true</NoConfig>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>Bin\Debug\SLShaderEffectLibrary.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -61,6 +62,9 @@
     </Compile>
     <Compile Include="..\..\WPF\ShaderEffectLibrary\EffectFiles\ColorKeyAlphaEffect.cs">
       <Link>EffectFiles\ColorKeyAlphaEffect.cs</Link>
+    </Compile>
+    <Compile Include="..\..\WPF\ShaderEffectLibrary\EffectFiles\ColorToneAlphaEffect.cs">
+      <Link>EffectFiles\ColorToneAlphaEffect.cs</Link>
     </Compile>
     <Compile Include="..\..\WPF\ShaderEffectLibrary\EffectFiles\ColorToneEffect.cs">
       <Link>EffectFiles\ColorToneEffect.cs</Link>
@@ -97,9 +101,6 @@
     </Compile>
     <Compile Include="..\..\WPF\ShaderEffectLibrary\EffectFiles\PixelateEffect.cs">
       <Link>EffectFiles\PixelateEffect.cs</Link>
-    </Compile>
-    <Compile Include="..\..\WPF\ShaderEffectLibrary\EffectFiles\RippleEffect.cs">
-      <Link>EffectFiles\RippleEffect.cs</Link>
     </Compile>
     <Compile Include="..\..\WPF\ShaderEffectLibrary\EffectFiles\SharpenEffect.cs">
       <Link>EffectFiles\SharpenEffect.cs</Link>
@@ -142,13 +143,15 @@
     <Resource Include="ShaderSource\Monochrome.ps" />
     <Resource Include="ShaderSource\Pinch.ps" />
     <Resource Include="ShaderSource\Pixelate.ps" />
-    <Resource Include="ShaderSource\Ripple.ps" />
     <Resource Include="ShaderSource\Sharpen.ps" />
     <Resource Include="ShaderSource\SmoothMagnify.ps" />
     <Resource Include="ShaderSource\Swirl.ps" />
     <Resource Include="ShaderSource\ToneMapping.ps" />
     <Resource Include="ShaderSource\ToonShader.ps" />
     <Resource Include="ShaderSource\ZoomBlur.ps" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ShaderSource\ColorToneAlphaEffect.ps" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight\v3.0\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

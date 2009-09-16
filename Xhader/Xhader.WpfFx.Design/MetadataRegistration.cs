@@ -5,9 +5,14 @@ using System.Text;
 using Microsoft.Windows.Design.Metadata;
 using System.Windows.Controls.Design.Common;
 using Microsoft.Windows.Design;
-[assembly: ProvideMetadata(typeof(Xhader.WpfFx.Design.MetadataRegistration))]
-
-namespace Xhader.WpfFx.Design
+using System.Reflection;
+#if SILVERLIGHT
+[assembly: ProvideMetadata(typeof(SLShaderEffectLibrary.Design.MetadataRegistration))]
+namespace SLShaderEffectLibrary.Design
+#else
+[assembly: ProvideMetadata(typeof(WPFShaderEffectLibrary.Design.MetadataRegistration))]
+namespace WPFShaderEffectLibrary.Design
+#endif
 {
     public partial class MetadataRegistration : MetadataRegistrationBase, IProvideAttributeTable
     {
@@ -18,10 +23,11 @@ namespace Xhader.WpfFx.Design
             : base()
         {
 
-            // Generates documentation based on the assembly file name
-            //AssemblyName asmName = typeof(ShaderEffectLibrary.BandedSwirlEffect).Assembly.GetName();
-            //XmlResourceName = asmName.Name + ".Design." + asmName.Name + ".XML"; // "Microsoft.Windows.Controls.Design.Microsoft.Windows.Controls.XML"
-            //AssemblyFullName = ", " + asmName.FullName;
+           // Generates documentation based on the assembly file name
+            AssemblyName asmName = typeof(ShaderEffectLibrary.BandedSwirlEffect).Assembly.GetName();
+            XmlResourceName = asmName.Name + ".Design." + asmName.Name + ".XML"; // "Microsoft.Windows.Controls.Design.Microsoft.Windows.Controls.XML"
+            //XmlResourceName = asmName.Name + ".XML"; 
+            AssemblyFullName = ", " + asmName.FullName;
         }
 
         /// <summary>
@@ -67,6 +73,11 @@ namespace Xhader.WpfFx.Design
 
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.ColorKeyAlphaEffect)
+                , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
+            );
+
+            builder.AddCallback(
+                typeof(ShaderEffectLibrary.ColorToneAlphaEffect)
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
 
@@ -130,10 +141,10 @@ namespace Xhader.WpfFx.Design
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
 
-            builder.AddCallback(
-                typeof(ShaderEffectLibrary.RippleEffect)
-                , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
-            );
+            //builder.AddCallback(
+            //    typeof(ShaderEffectLibrary.RippleEffect)
+            //    , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
+            //);
 
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.SharpenEffect)

@@ -33,7 +33,7 @@ namespace SLEffectHarness
             List<BitmapSource> images = new List<BitmapSource>();
             for (int x = 0; x < 10; x++)
             {
-                BitmapSource bs = new BitmapImage(new Uri("TransitionImages/" + x + ".jpg", UriKind.Relative));
+                BitmapSource bs = new BitmapImage(new Uri("TransitionImages/" + x + ".png", UriKind.Relative));
                 // BitmapSource bs = new BitmapImage(new Uri( @"C:\Windows\Web\Wallpaper\img" + x.ToString() + ".jpg", UriKind.Absolute));                
                 // bs.Freeze(); 
                 images.Add(bs);

@@ -63,6 +63,15 @@
     <Content Include="Silverlight.js" />
     <Content Include="Default.aspx" />
     <Content Include="Default.html" />
+    <Content Include="TransitionImages\0.png" />
+    <Content Include="TransitionImages\1.png" />
+    <Content Include="TransitionImages\3.png" />
+    <Content Include="TransitionImages\4.png" />
+    <Content Include="TransitionImages\5.png" />
+    <Content Include="TransitionImages\6.png" />
+    <Content Include="TransitionImages\7.png" />
+    <Content Include="TransitionImages\8.png" />
+    <Content Include="TransitionImages\9.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

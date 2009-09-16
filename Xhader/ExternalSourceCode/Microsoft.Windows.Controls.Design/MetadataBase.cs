@@ -95,8 +95,8 @@ namespace System.Windows.Controls.Design.Common
                 return;
             }
 
-            XDocument xdoc = XDocument.Load(new StreamReader(
-                Assembly.GetExecutingAssembly().GetManifestResourceStream(XmlResourceName)));
+            //XDocument xdoc = XDocument.Load(new StreamReader( Assembly.GetExecutingAssembly().GetManifestResourceStream(XmlResourceName)));
+            XDocument xdoc = XDocument.Load(XmlResourceName);
             if (xdoc == null)
             {
                 return;
