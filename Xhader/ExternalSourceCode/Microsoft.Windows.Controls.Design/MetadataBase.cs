@@ -89,14 +89,14 @@ namespace System.Windows.Controls.Design.Common
         {
             Debug.Assert(builder != null, "AddDescriptions is called with null parameter!");
 
-            if (string.IsNullOrEmpty(XmlResourceName) || 
+            if (string.IsNullOrEmpty(XmlResourceName) ||
                 string.IsNullOrEmpty(AssemblyFullName))
             {
                 return;
             }
 
-            //XDocument xdoc = XDocument.Load(new StreamReader( Assembly.GetExecutingAssembly().GetManifestResourceStream(XmlResourceName)));
-            XDocument xdoc = XDocument.Load(XmlResourceName);
+            XDocument xdoc = XDocument.Load(new StreamReader(Assembly.GetExecutingAssembly().GetManifestResourceStream(XmlResourceName)));
+            //XDocument xdoc = XDocument.Load(XmlResourceName);
             if (xdoc == null)
             {
                 return;
@@ -125,8 +125,9 @@ namespace System.Windows.Controls.Design.Common
                         typeName += AssemblyFullName;
 
                         Type t = Type.GetType(typeName);
-                        if (t != null && t.IsPublic && t.IsClass && 
-                            t.IsSubclassOf(typeof(SSW::FrameworkElement)))
+                        if (t != null && t.IsPublic && t.IsClass &&
+                            (t.IsSubclassOf(typeof(SSW::FrameworkElement)) || t.IsSubclassOf(typeof(SSW::Media.Effects.ShaderEffect)))
+                            )
                         {
                             string desc = ParseDescription(member);
                             desc = desc.Trim();

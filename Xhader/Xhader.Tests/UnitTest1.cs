@@ -1,5 +1,4 @@
-﻿#define SILVERLIGHT
-using System;
+﻿using System;
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
@@ -66,7 +65,11 @@ namespace Xhader.Tests
             //
             // TODO: Add test logic	here
             //
+#if SILVERLIGHT
             var metadataRegistration = new SLShaderEffectLibrary.Design.MetadataRegistration();
+#else
+            var metadataRegistration = new WPFShaderEffectLibrary.Design.MetadataRegistration();
+#endif
             var attributeTable = metadataRegistration.AttributeTable;
         }
     }
