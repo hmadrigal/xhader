@@ -25,10 +25,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLTransitionEffects", "Exte
 		{9FEDF2F2-D59E-4797-A5AE-13A25E679F6A} = {9FEDF2F2-D59E-4797-A5AE-13A25E679F6A}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFShaderEffectLibrary.Design", "Xhader.WpfFx.Design\WPFShaderEffectLibrary.Design.csproj", "{979EC844-6F17-4683-B391-F941754E8773}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLShaderEffectLibrary.Design", "Xhader.SlFx.Design\SLShaderEffectLibrary.Design.csproj", "{497DF1F0-A876-402D-BCB3-6CBC14C62F1E}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalLibraries", "ExternalLibraries", "{894D68E6-09F5-4AC6-80B3-6003FA263B7E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft.Windows.Design", "Microsoft.Windows.Design", "{EAC492EC-0EEE-4103-B243-CE0431F89236}"
@@ -41,7 +37,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft.Windows.Controls.
 	ProjectSection(SolutionItems) = preProject
 		ExternalSourceCode\Microsoft.Windows.Controls.Design\Extensions.cs = ExternalSourceCode\Microsoft.Windows.Controls.Design\Extensions.cs
 		ExternalSourceCode\Microsoft.Windows.Controls.Design\MetadataBase.cs = ExternalSourceCode\Microsoft.Windows.Controls.Design\MetadataBase.cs
-		Readme.txt = Readme.txt
+		ExternalSourceCode\Microsoft.Windows.Controls.Design\Readme.txt = ExternalSourceCode\Microsoft.Windows.Controls.Design\Readme.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Silverlight", "Silverlight", "{83756C8A-DFB7-479C-A558-FB2F7C8480B9}"
@@ -50,20 +46,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Silverlight", "Silverlight"
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9FE4A457-6E9F-4D15-AAAA-AFE1E3F2712B}"
-	ProjectSection(SolutionItems) = preProject
-		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
-		Xhader.vsmdi = Xhader.vsmdi
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLTransitionEffects.Design", "SLTransitionEffects.Design\SLTransitionEffects.Design.csproj", "{D3D9D1CD-0719-4718-870C-D792F06DD4BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTransitionEffects.Design", "WPFTransitionEffects.Design\WPFTransitionEffects.Design.csproj", "{1DF52744-9F45-4E6A-9C3C-35EA4D0A1771}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "XhaderEffectLibrarySetup", "XhaderEffectLibrarySetup\XhaderEffectLibrarySetup.vdproj", "{71B3F937-EB23-4187-9974-97F2BBD098EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFShaderEffectLibrary.Design", "WPFShaderEffectLibrary.Design\WPFShaderEffectLibrary.Design.csproj", "{979EC844-6F17-4683-B391-F941754E8773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLShaderEffectLibrary.Design", "SLShaderEffectLibrary.Design\SLShaderEffectLibrary.Design.csproj", "{497DF1F0-A876-402D-BCB3-6CBC14C62F1E}"
 EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 13
+		SccNumberOfProjects = 12
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://tfs09.codeplex.com/
 		SccLocalPath0 = .
@@ -95,24 +89,18 @@ Global
 		SccProjectTopLevelParentUniqueName7 = Xhader.sln
 		SccProjectName7 = ExternalSourceCode/WPFSLFx/WPF/TransitionEffects
 		SccLocalPath7 = ExternalSourceCode\\WPFSLFx\\WPF\\TransitionEffects
-		SccProjectUniqueName8 = Xhader.SlFx.Design\\SLShaderEffectLibrary.Design.csproj
-		SccProjectName8 = Xhader.SlFx.Design
-		SccLocalPath8 = Xhader.SlFx.Design
-		SccProjectUniqueName9 = Xhader.WpfFx.Design\\WPFShaderEffectLibrary.Design.csproj
-		SccProjectName9 = Xhader.WpfFx.Design
-		SccLocalPath9 = Xhader.WpfFx.Design
-		SccProjectUniqueName10 = SLTransitionEffects.Design\\SLTransitionEffects.Design.csproj
-		SccProjectName10 = SLTransitionEffects.Design
-		SccLocalPath10 = SLTransitionEffects.Design
-		SccProjectUniqueName11 = WPFTransitionEffects.Design\\WPFTransitionEffects.Design.csproj
-		SccProjectName11 = WPFTransitionEffects.Design
-		SccLocalPath11 = WPFTransitionEffects.Design
-		SccProjectUniqueName12 = XhaderEffectLibrarySetup\\XhaderEffectLibrarySetup.vdproj
-		SccProjectName12 = XhaderEffectLibrarySetup
-		SccLocalPath12 = XhaderEffectLibrarySetup
-	EndGlobalSection
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = Xhader.vsmdi
+		SccProjectUniqueName8 = SLTransitionEffects.Design\\SLTransitionEffects.Design.csproj
+		SccProjectName8 = SLTransitionEffects.Design
+		SccLocalPath8 = SLTransitionEffects.Design
+		SccProjectUniqueName9 = WPFTransitionEffects.Design\\WPFTransitionEffects.Design.csproj
+		SccProjectName9 = WPFTransitionEffects.Design
+		SccLocalPath9 = WPFTransitionEffects.Design
+		SccProjectUniqueName10 = WPFShaderEffectLibrary.Design\\WPFShaderEffectLibrary.Design.csproj
+		SccProjectName10 = WPFShaderEffectLibrary.Design
+		SccLocalPath10 = WPFShaderEffectLibrary.Design
+		SccProjectUniqueName11 = SLShaderEffectLibrary.Design\\SLShaderEffectLibrary.Design.csproj
+		SccProjectName11 = SLShaderEffectLibrary.Design
+		SccLocalPath11 = SLShaderEffectLibrary.Design
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,14 +135,6 @@ Global
 		{0C8D967A-FF1B-4F1D-95E9-9203D6D04783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C8D967A-FF1B-4F1D-95E9-9203D6D04783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C8D967A-FF1B-4F1D-95E9-9203D6D04783}.Release|Any CPU.Build.0 = Release|Any CPU
-		{979EC844-6F17-4683-B391-F941754E8773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{979EC844-6F17-4683-B391-F941754E8773}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{979EC844-6F17-4683-B391-F941754E8773}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{979EC844-6F17-4683-B391-F941754E8773}.Release|Any CPU.Build.0 = Release|Any CPU
-		{497DF1F0-A876-402D-BCB3-6CBC14C62F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{497DF1F0-A876-402D-BCB3-6CBC14C62F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{497DF1F0-A876-402D-BCB3-6CBC14C62F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{497DF1F0-A876-402D-BCB3-6CBC14C62F1E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D3D9D1CD-0719-4718-870C-D792F06DD4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D3D9D1CD-0719-4718-870C-D792F06DD4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3D9D1CD-0719-4718-870C-D792F06DD4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -163,8 +143,14 @@ Global
 		{1DF52744-9F45-4E6A-9C3C-35EA4D0A1771}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DF52744-9F45-4E6A-9C3C-35EA4D0A1771}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DF52744-9F45-4E6A-9C3C-35EA4D0A1771}.Release|Any CPU.Build.0 = Release|Any CPU
-		{71B3F937-EB23-4187-9974-97F2BBD098EC}.Debug|Any CPU.ActiveCfg = Debug
-		{71B3F937-EB23-4187-9974-97F2BBD098EC}.Release|Any CPU.ActiveCfg = Release
+		{979EC844-6F17-4683-B391-F941754E8773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979EC844-6F17-4683-B391-F941754E8773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979EC844-6F17-4683-B391-F941754E8773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979EC844-6F17-4683-B391-F941754E8773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{497DF1F0-A876-402D-BCB3-6CBC14C62F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497DF1F0-A876-402D-BCB3-6CBC14C62F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497DF1F0-A876-402D-BCB3-6CBC14C62F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497DF1F0-A876-402D-BCB3-6CBC14C62F1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,5 +167,7 @@ Global
 		{0C8D967A-FF1B-4F1D-95E9-9203D6D04783} = {07F7E97C-D117-41A9-B5CE-4E5DE75066A4}
 		{EAC492EC-0EEE-4103-B243-CE0431F89236} = {894D68E6-09F5-4AC6-80B3-6003FA263B7E}
 		{83756C8A-DFB7-479C-A558-FB2F7C8480B9} = {894D68E6-09F5-4AC6-80B3-6003FA263B7E}
+		{C36A7DFF-29DC-4E71-B635-D723CD08C9DD} = {9FE4A457-6E9F-4D15-AAAA-AFE1E3F2712B}
+		{894D68E6-09F5-4AC6-80B3-6003FA263B7E} = {9FE4A457-6E9F-4D15-AAAA-AFE1E3F2712B}
 	EndGlobalSection
 EndGlobal

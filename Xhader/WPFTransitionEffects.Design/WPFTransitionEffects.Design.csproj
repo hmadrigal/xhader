@@ -98,11 +98,6 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="..\ExternalSourceCode\WPFSLFx\WPF\TransitionEffects\Binaries\WPFTransitionEffects.XML">
-      <Link>WPFTransitionEffects.XML</Link>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ExternalSourceCode\WPFSLFx\WPF\TransitionEffects\WPFTransitionEffects.csproj">
       <Project>{9FEDF2F2-D59E-4797-A5AE-13A25E679F6A}</Project>
       <Name>WPFTransitionEffects</Name>
