@@ -212,7 +212,7 @@ namespace WPFShaderEffectLibrary.Design
                , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.DirectionalBlurEffect>(o => o.Angle)
                , new NumberRangesAttribute(0, 0, 10, 360, null)
                , new NumberIncrementsAttribute(0.01, 0.020, 0.1)
-           );
+            );
 
 
             builder.AddCustomAttributes(
@@ -224,85 +224,381 @@ namespace WPFShaderEffectLibrary.Design
                 );
             #endregion
 
+            #region EmbossedEffect
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.EmbossedEffect)
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
 
+            builder.AddCustomAttributes(
+              typeof(ShaderEffectLibrary.EmbossedEffect)
+              , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.EmbossedEffect>(o => o.Amount)
+              , new NumberRangesAttribute(0, 0, 10, 30, null)
+              , new NumberIncrementsAttribute(0.01, 0.020, 0.1)
+            );
+
+            builder.AddCustomAttributes(
+              typeof(ShaderEffectLibrary.EmbossedEffect)
+              , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.EmbossedEffect>(o => o.Width)
+              , new NumberRangesAttribute(0, 0, 0.005, 0.005, null)
+              , new NumberIncrementsAttribute(0.0001, 0.001, 0.1)
+            );
+
+
+            #endregion
+
+            #region GloomEffect
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.GloomEffect)
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
 
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.GloomEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.GloomEffect>(o => o.GloomIntensity)
+               , new NumberRangesAttribute(null, 0, 1, null, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+               , new NumberFormatAttribute("0'%'", null, 100)
+            );
+
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.GloomEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.GloomEffect>(o => o.BaseIntensity)
+               , new NumberRangesAttribute(null, 0, 1, null, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+               , new NumberFormatAttribute("0'%'", null, 100)
+            );
+
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.GloomEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.GloomEffect>(o => o.GloomSaturation)
+               , new NumberRangesAttribute(null, 0, 1, null, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+               , new NumberFormatAttribute("0'%'", null, 100)
+            );
+
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.GloomEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.GloomEffect>(o => o.BaseSaturation)
+               , new NumberRangesAttribute(null, 0, 1, null, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+               , new NumberFormatAttribute("0'%'", null, 100)
+            );
+
+            #endregion
+
+            #region GrowablePoissonDiskEffect
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.GrowablePoissonDiskEffect)
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
 
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.GrowablePoissonDiskEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.GrowablePoissonDiskEffect>(o => o.Radius)
+               , new NumberRangesAttribute(null, 0, 1, null, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+               , new NumberFormatAttribute("0'%'", null, 100)
+            );
+            
+            builder.AddCustomAttributes(
+              typeof(ShaderEffectLibrary.GrowablePoissonDiskEffect)
+              , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.GrowablePoissonDiskEffect>(o => o.Width)
+              , new NumberRangesAttribute(0, 0, 10, 50, null)
+              , new NumberIncrementsAttribute(0.01, 0.020, 0.1)
+            );
+
+            builder.AddCustomAttributes(
+              typeof(ShaderEffectLibrary.GrowablePoissonDiskEffect)
+              , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.GrowablePoissonDiskEffect>(o => o.Height)
+              , new NumberRangesAttribute(0, 0, 10, 50, null)
+              , new NumberIncrementsAttribute(0.01, 0.020, 0.1)
+            );
+
+            #endregion
+
+            #region InvertColorEffect
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.InvertColorEffect)
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
-
+            #endregion
+            
+            #region LightStreakEffect
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.LightStreakEffect)
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
 
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.LightStreakEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.LightStreakEffect>(o => o.BrightThreshold)
+               , new NumberRangesAttribute(null, 0, 1, null, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+               , new NumberFormatAttribute("0'%'", null, 100)
+            );
+
+            builder.AddCustomAttributes(
+              typeof(ShaderEffectLibrary.LightStreakEffect)
+              , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.LightStreakEffect>(o => o.Scale)
+              , new NumberRangesAttribute(0, 0, 10, 4, null)
+              , new NumberIncrementsAttribute(0.01, 0.020, 0.1)
+            );
+
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.LightStreakEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.LightStreakEffect>(o => o.Attenuation)
+               , new NumberRangesAttribute(null, 0, 1, null, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+               , new NumberFormatAttribute("0'%'", null, 100)
+            );
+
+            #endregion
+
+            #region MagnifyEffect
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.MagnifyEffect)
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
-
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.MagnifyEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.MagnifyEffect>(o => o.ShrinkFactor)
+               , new NumberRangesAttribute(null, 0, 1, null, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+               , new NumberFormatAttribute("0'%'", null, 100)
+            );
+            #endregion
+            
+            #region MonochromeEffect
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.MonochromeEffect)
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
+            #endregion
 
+            #region PinchEffect
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.PinchEffect)
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
 
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.PinchEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.PinchEffect>(o => o.Radius)
+               , new NumberRangesAttribute(null, 0, 1, null, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+               , new NumberFormatAttribute("0'%'", null, 100)
+            );
+
+            builder.AddCustomAttributes(
+              typeof(ShaderEffectLibrary.PinchEffect)
+              , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.PinchEffect>(o => o.Amount)
+              , new NumberRangesAttribute(0, 0, 10, 4, null)
+              , new NumberIncrementsAttribute(0.01, 0.020, 0.1)
+            );
+
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.PinchEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.PinchEffect>(o => o.CenterX)
+               , new NumberRangesAttribute(null, 0, 1, null, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+               , new NumberFormatAttribute("0'%'", null, 100)
+            );
+
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.PinchEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.PinchEffect>(o => o.CenterY)
+               , new NumberRangesAttribute(null, 0, 1, null, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+               , new NumberFormatAttribute("0'%'", null, 100)
+            );
+
+            #endregion
+
+            #region PixelateEffect
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.PixelateEffect)
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
+            builder.AddCustomAttributes(
+              typeof(ShaderEffectLibrary.PixelateEffect)
+              , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.PixelateEffect>(o => o.HorizontalPixelCounts)
+              , new NumberRangesAttribute(0, 0, 10, 800, null)
+              , new NumberIncrementsAttribute(0.01, 0.020, 0.1)
+            );
+            builder.AddCustomAttributes(
+              typeof(ShaderEffectLibrary.PixelateEffect)
+              , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.PixelateEffect>(o => o.VerticalPixelCounts)
+              , new NumberRangesAttribute(0, 0, 10, 800, null)
+              , new NumberIncrementsAttribute(0.01, 0.020, 0.1)
+            );
+            #endregion 
 
+            #region RippleEffect
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.RippleEffect)
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
 
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.RippleEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.RippleEffect>(o => o.Amplitude)
+               , new NumberRangesAttribute(null, 0, 1, null, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+               , new NumberFormatAttribute("0'%'", null, 100)
+            );
+
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.RippleEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.RippleEffect>(o => o.Amplitude)
+               , new NumberRangesAttribute(null, 0, 100, null, null)
+               , new NumberIncrementsAttribute(0.10, 0.25, 1.0)
+            );
+
+            builder.AddCustomAttributes(
+              typeof(ShaderEffectLibrary.RippleEffect)
+              , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.RippleEffect>(o => o.Phase)
+              , new NumberRangesAttribute(0, 0, 10, 10, null)
+              , new NumberIncrementsAttribute(0.01, 0.020, 0.1)
+            );
+            #endregion
+
+            #region SharpenEffect
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.SharpenEffect)
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
 
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.SharpenEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.SharpenEffect>(o => o.Amount)
+               , new NumberRangesAttribute(null, 0, 100, null, null)
+               , new NumberIncrementsAttribute(0.10, 0.25, 1.0)
+            );
+
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.SharpenEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.SharpenEffect>(o => o.Width)
+               , new NumberRangesAttribute(null, 0, 100, null, null)
+               , new NumberIncrementsAttribute(0.10, 0.25, 1.0)
+            );
+
+            #endregion
+
+            #region SmoothMagnifyEffect
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.SmoothMagnifyEffect)
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
+
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.SmoothMagnifyEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.SmoothMagnifyEffect>(o => o.InnerRadius)
+               , new NumberRangesAttribute(0, 0, 0.6, 0.6, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+            );
+
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.SmoothMagnifyEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.SmoothMagnifyEffect>(o => o.OuterRadius)
+               , new NumberRangesAttribute(0, 0, 1.0, 1.0, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+            );
+
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.SmoothMagnifyEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.SmoothMagnifyEffect>(o => o.Magnification)
+               , new NumberRangesAttribute(0, 0, 10.0, 10.0, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+            );
+
+
+            #endregion
+
+            #region SwirlEffect
 
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.SwirlEffect)
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
 
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.SwirlEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.SwirlEffect>(o => o.SwirlStrength)
+               , new NumberRangesAttribute(-20, 0, 10.0, 20.0, null)
+               , new NumberIncrementsAttribute(0.1, 0.25, 1.0)
+            );
+
+            #endregion
+
+            #region ToneMappingEffect
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.ToneMappingEffect)
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
 
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.ToneMappingEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.ToneMappingEffect>(o => o.Exposure)
+               , new NumberRangesAttribute(0, 0, 1.0, 3.0, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+            );
+
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.ToneMappingEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.ToneMappingEffect>(o => o.Gamma)
+               , new NumberRangesAttribute(null, 0, 1, null, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+               , new NumberFormatAttribute("0'%'", null, 100)
+            );
+
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.ToneMappingEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.ToneMappingEffect>(o => o.Defog)
+               , new NumberRangesAttribute(null, 0, 1, null, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+               , new NumberFormatAttribute("0'%'", null, 100)
+            );
+
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.ToneMappingEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.ToneMappingEffect>(o => o.VignetteRadius)
+               , new NumberRangesAttribute(null, 0, 1, null, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+               , new NumberFormatAttribute("0'%'", null, 100)
+            );
+
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.ToneMappingEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.ToneMappingEffect>(o => o.BlueShift)
+               , new NumberRangesAttribute(null, 0, 1, null, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+               , new NumberFormatAttribute("0'%'", null, 100)
+            );
+
+            #endregion
+
+            #region ToonShaderEffect
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.ToonShaderEffect)
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
+            #endregion
 
+            #region ZoomBlurEffect
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.ZoomBlurEffect)
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
+
+            builder.AddCustomAttributes(
+               typeof(ShaderEffectLibrary.ZoomBlurEffect)
+               , System.Windows.Controls.Design.Common.Extensions.GetMemberName<ShaderEffectLibrary.ZoomBlurEffect>(o => o.BlurAmount)
+               , new NumberRangesAttribute(0, 0, 1.0, 10.0, null)
+               , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+            );
+
+            #endregion 
         }
     }
 }
