@@ -265,7 +265,7 @@ namespace ExtensibleDemoApp
                     _effects.Add(new EffectViewItem(new ShaderEffectLibrary.MonochromeEffect()));
                     _effects.Add(new EffectViewItem(new ShaderEffectLibrary.PinchEffect()));
                     _effects.Add(new EffectViewItem(new ShaderEffectLibrary.PixelateEffect()));
-                    //_effects.Add(new EffectViewItem(new ShaderEffectLibrary.RippleEffect()));
+                    _effects.Add(new EffectViewItem(new ShaderEffectLibrary.RippleEffect()));
                     _effects.Add(new EffectViewItem(new ShaderEffectLibrary.SharpenEffect()));
                     _effects.Add(new EffectViewItem(new ShaderEffectLibrary.SmoothMagnifyEffect()));
                     _effects.Add(new EffectViewItem(new ShaderEffectLibrary.SwirlEffect()));

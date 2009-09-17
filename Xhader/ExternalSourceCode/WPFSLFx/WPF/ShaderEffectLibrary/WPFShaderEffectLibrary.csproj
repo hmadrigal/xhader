@@ -112,6 +112,9 @@
     <Effect Include="ShaderSource\ColorToneAlphaEffect.fx" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ShaderSource\Ripple.fx" />
+  </ItemGroup>
+  <ItemGroup>
     <Folder Include="Binaries\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

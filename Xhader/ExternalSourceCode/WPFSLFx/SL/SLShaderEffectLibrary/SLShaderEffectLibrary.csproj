@@ -8,7 +8,7 @@
     <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SLShaderEffectLibrary</RootNamespace>
+    <RootNamespace>ShaderEffectLibrary</RootNamespace>
     <AssemblyName>SLShaderEffectLibrary</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <SilverlightApplication>false</SilverlightApplication>
@@ -102,6 +102,9 @@
     <Compile Include="..\..\WPF\ShaderEffectLibrary\EffectFiles\PixelateEffect.cs">
       <Link>EffectFiles\PixelateEffect.cs</Link>
     </Compile>
+    <Compile Include="..\..\WPF\ShaderEffectLibrary\EffectFiles\RippleEffect.cs">
+      <Link>EffectFiles\RippleEffect.cs</Link>
+    </Compile>
     <Compile Include="..\..\WPF\ShaderEffectLibrary\EffectFiles\SharpenEffect.cs">
       <Link>EffectFiles\SharpenEffect.cs</Link>
     </Compile>
@@ -152,6 +155,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="ShaderSource\ColorToneAlphaEffect.ps" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ShaderSource\Ripple.ps" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Binaries\" />

@@ -141,10 +141,10 @@ namespace WPFShaderEffectLibrary.Design
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
 
-            //builder.AddCallback(
-            //    typeof(ShaderEffectLibrary.RippleEffect)
-            //    , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
-            //);
+            builder.AddCallback(
+                typeof(ShaderEffectLibrary.RippleEffect)
+                , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
+            );
 
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.SharpenEffect)

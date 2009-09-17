@@ -535,7 +535,7 @@
 	</DataTemplate>
 
 
-	<!--<DataTemplate DataType="{x:Type shaderlib:RippleEffect}" >
+	<DataTemplate DataType="{x:Type shaderlib:RippleEffect}" >
 		<Grid>
 			<Grid.ColumnDefinitions>
 				<ColumnDefinition Width="{StaticResource marginLeft}" />
@@ -576,7 +576,7 @@
 			 
 
 		</Grid>
-	</DataTemplate>-->
+	</DataTemplate>
 
 
 	<DataTemplate DataType="{x:Type shaderlib:SharpenEffect}" >
