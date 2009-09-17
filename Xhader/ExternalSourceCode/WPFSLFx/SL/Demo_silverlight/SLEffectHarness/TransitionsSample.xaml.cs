@@ -36,7 +36,7 @@ namespace SLEffectHarness
                 BitmapSource bs = new BitmapImage(new Uri(System.Windows.Browser.HtmlPage.Document.DocumentUri, String.Concat("TransitionImages/",x ,".png")));
                 // BitmapSource bs = new BitmapImage(new Uri( @"C:\Windows\Web\Wallpaper\img" + x.ToString() + ".jpg", UriKind.Absolute));                
                 // bs.Freeze(); 
-                images.Add(bs)
+                images.Add(bs);
             }
             this.PhotoSlideShow = new PhotoSlideShow();
             PhotoSlideShow.MoveFirst();
