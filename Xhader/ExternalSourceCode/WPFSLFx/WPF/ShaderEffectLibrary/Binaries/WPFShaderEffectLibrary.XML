@@ -1,0 +1,1554 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WPFShaderEffectLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:ShaderEffectLibrary.LightStreakEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.LightStreakEffect.InputProperty">
+            <summary>
+            The explict input for this pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.LightStreakEffect.BrightThresholdProperty">
+            <summary>
+            This property is mapped to the BrightThreshold variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.LightStreakEffect.ScaleProperty">
+            <summary>
+            This property is mapped to the Scale variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.LightStreakEffect.AttenuationProperty">
+            <summary>
+            This property is mapped to the Attenuation variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.LightStreakEffect.pixelShader">
+            <summary>
+            A refernce to the pixel shader used.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.LightStreakEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.LightStreakEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.LightStreakEffect.Input">
+            <summary>
+            Gets or sets the Input shader sampler.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.LightStreakEffect.BrightThreshold">
+            <summary>
+            Gets or sets the BrightThreshold variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.LightStreakEffect.Scale">
+            <summary>
+            Gets or sets the Scale variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.LightStreakEffect.Attenuation">
+            <summary>
+            Gets or sets the Attenuation variable within the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.BandedSwirlEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.BandedSwirlEffect.CenterProperty">
+            <summary>
+            Dependency property which modifies the Center variable within the pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.BandedSwirlEffect.SwirlStrengthProperty">
+            <summary>
+            Dependency property which modifies the SwirlStrength variable within the pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.BandedSwirlEffect.DistanceThresholdProperty">
+            <summary>
+            Dependency property which modifies the DistanceThreshold variable within the pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.BandedSwirlEffect.InputProperty">
+            <summary>
+            Dependency property for the shader sampler.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.BandedSwirlEffect.pixelShader">
+            <summary>
+            The pixel shader instance.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.BandedSwirlEffect.#cctor">
+            <summary>
+            Creates a PixelShader by loading the bytecode.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.BandedSwirlEffect.#ctor">
+            <summary>
+            Creates the and updates the registered values defined within the pixel shader using the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.BandedSwirlEffect.Center">
+            <summary>
+            Gets or sets the Center variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.BandedSwirlEffect.SwirlStrength">
+            <summary>
+            Gets or sets SwirlStength variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.BandedSwirlEffect.DistanceThreshold">
+            <summary>
+            Gets or sets the DistanceThreshold variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.BandedSwirlEffect.Input">
+            <summary>
+            Gets or sets the Input variable within the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.SwirlEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SwirlEffect.InputProperty">
+            <summary>
+            The explict input for this pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SwirlEffect.CenterProperty">
+            <summary>
+            This property is mapped to the Center variable within the pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SwirlEffect.SwirlStrengthProperty">
+            <summary>
+            This property is mapped to the SwirlStrength variable within the pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SwirlEffect.AngleFrequencyProperty">
+            <summary>
+            This property is mapped to the AngleFrequency variable within the pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SwirlEffect.pixelShader">
+            <summary>
+            A refernce to the pixel shader used.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SwirlEffect.generalTransform">
+            <summary>
+            The transform used when this Effect is applied.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.SwirlEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.SwirlEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.SwirlEffect.Center">
+            <summary>
+            Gets or sets the Center variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.SwirlEffect.SwirlStrength">
+            <summary>
+            Gets or sets the SwirlStrength variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.SwirlEffect.AngleFrequency">
+            <summary>
+            Gets or sets the AngleFrequency variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.SwirlEffect.Input">
+            <summary>
+            Gets or sets the Input shader sampler.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.SwirlEffect.EffectMapping">
+            <summary>
+            Gets the GeneralTransform for this effect.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.SwirlEffect.SwirlGeneralTransform">
+            <summary>
+            For transforming input and tree transformations.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SwirlEffect.SwirlGeneralTransform.theEffect">
+            <summary>
+            The instance of the Effect.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SwirlEffect.SwirlGeneralTransform.thisIsInverse">
+            <summary>
+            The inverse of the transform.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SwirlEffect.SwirlGeneralTransform.inverseTransform">
+            <summary>
+            The inverse of this GeneralTransform.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.SwirlEffect.SwirlGeneralTransform.#ctor(ShaderEffectLibrary.SwirlEffect)">
+            <summary>
+            Creates an instance of this class.
+            </summary>
+            <param name="eff">The effect itself.</param>
+        </member>
+        <member name="M:ShaderEffectLibrary.SwirlEffect.SwirlGeneralTransform.TransformBounds(System.Windows.Rect)">
+            <summary>
+            For this operation, the bounds is the bounding box of the 4 transformed points. 
+            Need to transform each of them, and then circumscribe.  This is true for both the 
+            forward and the inverse.
+            </summary>
+            <param name="rect">The input rect.</param>
+            <returns>The transformed rect.</returns>
+        </member>
+        <member name="M:ShaderEffectLibrary.SwirlEffect.SwirlGeneralTransform.TryTransform(System.Windows.Point,System.Windows.Point@)">
+            <summary>
+            Attempt to transform inPoint with the Swirl effect.
+            </summary>
+            <param name="targetPoint">The input point.</param>
+            <param name="result">The output point after transformed using the Swirl effect.</param>
+            <returns>True and throws if false.</returns>
+        </member>
+        <member name="M:ShaderEffectLibrary.SwirlEffect.SwirlGeneralTransform.CreateInstanceCore">
+            <summary>
+            Returns a new instance of this.
+            </summary>
+            <returns>A new instance.</returns>
+        </member>
+        <member name="P:ShaderEffectLibrary.SwirlEffect.SwirlGeneralTransform.Inverse">
+            <summary>
+            Gets a clone of the inverse of the current transform.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.ColorToneAlphaEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ColorToneAlphaEffect.InputProperty">
+            <summary>
+            The explict input for this pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ColorToneAlphaEffect.DesaturationProperty">
+            <summary>
+            This property is mapped to the Desaturation variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ColorToneAlphaEffect.TonedProperty">
+            <summary>
+            This property is mapped to the Toned variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ColorToneAlphaEffect.LightColorProperty">
+            <summary>
+            This property is mapped to the LightColor variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ColorToneAlphaEffect.DarkColorProperty">
+            <summary>
+            This property is mapped to the DarkColor variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ColorToneAlphaEffect.pixelShader">
+            <summary>
+            A refernce to the pixel shader used.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.ColorToneAlphaEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.ColorToneAlphaEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ColorToneAlphaEffect.Input">
+            <summary>
+            Gets or sets the Input shader sampler.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ColorToneAlphaEffect.Desaturation">
+            <summary>
+            Gets or sets the Desaturation variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ColorToneAlphaEffect.Toned">
+            <summary>
+            Gets or sets the Toned variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ColorToneAlphaEffect.LightColor">
+            <summary>
+            Gets or sets the LightColor variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ColorToneAlphaEffect.DarkColor">
+            <summary>
+            Gets or sets the DarkColor variable within the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.SharpenEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SharpenEffect.InputProperty">
+            <summary>
+            The explict input for this pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SharpenEffect.AmountProperty">
+            <summary>
+            This property is mapped to the Amount variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SharpenEffect.WidthProperty">
+            <summary>
+            This property is mapped to the Width variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SharpenEffect.pixelShader">
+            <summary>
+            A refernce to the pixel shader used.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.SharpenEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.SharpenEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.SharpenEffect.Input">
+            <summary>
+            Gets or sets the Input shader sampler.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.SharpenEffect.Amount">
+            <summary>
+            Gets or sets the Amount variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.SharpenEffect.Width">
+            <summary>
+            Gets or sets the Width variable within the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.PixelateEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.PixelateEffect.InputProperty">
+            <summary>
+            The explict input for this pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.PixelateEffect.HorizontalPixelCountsProperty">
+            <summary>
+            This property is mapped to the HorizontalPixelCounts variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.PixelateEffect.VerticalPixelCountsProperty">
+            <summary>
+            This property is mapped to the VerticalPixelCounts variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.PixelateEffect.pixelShader">
+            <summary>
+            A refernce to the pixel shader used.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.PixelateEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.PixelateEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.PixelateEffect.Input">
+            <summary>
+            Gets or sets the Input shader sampler.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.PixelateEffect.HorizontalPixelCounts">
+            <summary>
+            Gets or sets the HorizontalPixelCounts variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.PixelateEffect.VerticalPixelCounts">
+            <summary>
+            Gets or sets the VerticalPixelCounts variable within the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.MonochromeEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.MonochromeEffect.FilterColorProperty">
+            <summary>
+            Gets or sets the FilterColor variable within the shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.MonochromeEffect.InputProperty">
+            <summary>
+            Gets or sets the Input of the shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.MonochromeEffect.pixelShader">
+            <summary>
+            The shader instance.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.MonochromeEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.MonochromeEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.MonochromeEffect.FilterColor">
+            <summary>
+            Gets or sets the FilterColor variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.MonochromeEffect.Input">
+            <summary>
+            Gets or sets the input used in the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.MagnifyEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.MagnifyEffect.RadiiProperty">
+            <summary>
+            Gets or sets the Radii variable within the shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.MagnifyEffect.CenterProperty">
+            <summary>
+            Gets or sets the center variable within the shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.MagnifyEffect.ShrinkFactorProperty">
+            <summary>
+            Gets or sets the amount variable within the shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.MagnifyEffect.InputProperty">
+            <summary>
+            Gets or sets the input used in the shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.MagnifyEffect.pixelShader">
+            <summary>
+            The pixel shader instance.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.MagnifyEffect.generalTransform">
+            <summary>
+            The transform used for this shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.MagnifyEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.MagnifyEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.MagnifyEffect.Radii">
+            <summary>
+            Gets or sets the Radii variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.MagnifyEffect.Center">
+            <summary>
+            Gets or sets the Center variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.MagnifyEffect.ShrinkFactor">
+            <summary>
+            Gets or sets the ShrinkFactor: 
+            The higher the shrink factor the "smaller" the content inside the ellipse will appear. 
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.MagnifyEffect.Input">
+            <summary>
+            Gets or sets the Input shader sampler.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.MagnifyEffect.EffectMapping">
+            <summary>
+            Gets the EffectMapping.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.MagnifyEffect.MagnifyGeneralTransform">
+            <summary>
+            The GeneralTransform corrosponding to the Magnify effect.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.MagnifyEffect.MagnifyGeneralTransform.effect">
+            <summary>
+            The effect instance.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.MagnifyEffect.MagnifyGeneralTransform.thisIsInverse">
+            <summary>
+            If the transform is an inverse.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.MagnifyEffect.MagnifyGeneralTransform.inverseTransform">
+            <summary>
+            The transform specific to this Effect.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.MagnifyEffect.MagnifyGeneralTransform.#ctor(ShaderEffectLibrary.MagnifyEffect)">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="fx">The source effect.</param>
+        </member>
+        <member name="M:ShaderEffectLibrary.MagnifyEffect.MagnifyGeneralTransform.TransformBounds(System.Windows.Rect)">
+            <summary>
+            This particular effect keeps axis aligned lines axis aligned, so transformation of the rect is just
+            transformation of its corner points.
+            </summary>
+            <param name="rect">The input rect.</param>
+            <returns>The output rect.</returns>
+        </member>
+        <member name="M:ShaderEffectLibrary.MagnifyEffect.MagnifyGeneralTransform.TryTransform(System.Windows.Point,System.Windows.Point@)">
+            <summary>
+            Attempt to transform a point based on 
+            the effect.
+            </summary>
+            <param name="targetPoint">The point to transform.</param>
+            <param name="result">The result if available.</param>
+            <returns>Return true if successful.</returns>
+        </member>
+        <member name="M:ShaderEffectLibrary.MagnifyEffect.MagnifyGeneralTransform.CreateInstanceCore">
+            <summary>
+            Creats a new instance.
+            </summary>
+            <returns>A new instance of this.</returns>
+        </member>
+        <member name="M:ShaderEffectLibrary.MagnifyEffect.MagnifyGeneralTransform.PointIsInEllipse(System.Windows.Point,System.Windows.Point,System.Windows.Size)">
+            <summary>
+            Determines if a point is within an ellipse.
+            </summary>
+            <param name="pt">The test point.</param>
+            <param name="center">The center point of the ellipse.</param>
+            <param name="radii">The radii of the ellipse.</param>
+            <returns>True if successful.</returns>
+        </member>
+        <member name="P:ShaderEffectLibrary.MagnifyEffect.MagnifyGeneralTransform.Inverse">
+            <summary>
+            Gets the inverse transform.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.InvertColorEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.InvertColorEffect.InputProperty">
+            <summary>
+            Gets or sets the Input of the shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.InvertColorEffect.pixelShader">
+            <summary>
+            The shader instance.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.InvertColorEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.InvertColorEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.InvertColorEffect.Input">
+            <summary>
+            Gets or sets the input used in the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.PinchEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.PinchEffect.InputProperty">
+            <summary>
+            The explict input for this pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.PinchEffect.CenterXProperty">
+            <summary>
+            This property is mapped to the CenterX variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.PinchEffect.CenterYProperty">
+            <summary>
+            This property is mapped to the CenterY variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.PinchEffect.RadiusProperty">
+            <summary>
+            This property is mapped to the Radius variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.PinchEffect.AmountProperty">
+            <summary>
+            This property is mapped to the Amount variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.PinchEffect.pixelShader">
+            <summary>
+            A refernce to the pixel shader used.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.PinchEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.PinchEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.PinchEffect.Input">
+            <summary>
+            Gets or sets the Input shader sampler.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.PinchEffect.CenterX">
+            <summary>
+            Gets or sets the CenterX variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.PinchEffect.CenterY">
+            <summary>
+            Gets or sets the CenterY variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.PinchEffect.Radius">
+            <summary>
+            Gets or sets the Radius variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.PinchEffect.Amount">
+            <summary>
+            Gets or sets the Amount variable within the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.EmbossedEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.EmbossedEffect.InputProperty">
+            <summary>
+            The explict input for this pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.EmbossedEffect.AmountProperty">
+            <summary>
+            This property is mapped to the Amount variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.EmbossedEffect.WidthProperty">
+            <summary>
+            This property is mapped to the Width variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.EmbossedEffect.pixelShader">
+            <summary>
+            A refernce to the pixel shader used.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.EmbossedEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.EmbossedEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.EmbossedEffect.Input">
+            <summary>
+            Gets or sets the Input shader sampler.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.EmbossedEffect.Amount">
+            <summary>
+            Gets or sets the Amount variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.EmbossedEffect.Width">
+            <summary>
+            Gets or sets the Width variable within the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.ColorKeyAlphaEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ColorKeyAlphaEffect.InputProperty">
+            <summary>
+            The explict input for this pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ColorKeyAlphaEffect.pixelShader">
+            <summary>
+            A refernce to the pixel shader used.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.ColorKeyAlphaEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.ColorKeyAlphaEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ColorKeyAlphaEffect.Input">
+            <summary>
+            Gets or sets the Input of shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.GrowablePoissonDiskEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.GrowablePoissonDiskEffect.InputProperty">
+            <summary>
+            The explict input for this pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.GrowablePoissonDiskEffect.RadiusProperty">
+            <summary>
+            This property is mapped to the Radius variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.GrowablePoissonDiskEffect.WidthProperty">
+            <summary>
+            This property is mapped to the Width variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.GrowablePoissonDiskEffect.HeightProperty">
+            <summary>
+            This property is mapped to the Height variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.GrowablePoissonDiskEffect.pixelShader">
+            <summary>
+            A refernce to the pixel shader used.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.GrowablePoissonDiskEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.GrowablePoissonDiskEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.GrowablePoissonDiskEffect.Input">
+            <summary>
+            Gets or sets the Input shader sampler.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.GrowablePoissonDiskEffect.Radius">
+            <summary>
+            Gets or sets the Radius variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.GrowablePoissonDiskEffect.Width">
+            <summary>
+            Gets or sets the Width variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.GrowablePoissonDiskEffect.Height">
+            <summary>
+            Gets or sets the Height variable within the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.ZoomBlurEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ZoomBlurEffect.InputProperty">
+            <summary>
+            The explict input for this pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ZoomBlurEffect.CenterProperty">
+            <summary>
+            This property is mapped to the CenterX variable within the pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ZoomBlurEffect.BlurAmountProperty">
+            <summary>
+            This property is mapped to the BlurAmount variable within the pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ZoomBlurEffect.pixelShader">
+            <summary>
+            A refernce to the pixel shader used.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.ZoomBlurEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.ZoomBlurEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ZoomBlurEffect.Input">
+            <summary>
+            Gets or sets the Input shader sampler.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ZoomBlurEffect.Center">
+            <summary>
+            Gets or sets the CenterX variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ZoomBlurEffect.BlurAmount">
+            <summary>
+            Gets or sets the BlurAmount variable within the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.ContrastAdjustEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ContrastAdjustEffect.InputProperty">
+            <summary>
+            The explict input for this pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ContrastAdjustEffect.BrightnessProperty">
+            <summary>
+            This property is mapped to the Brightness variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ContrastAdjustEffect.ContrastProperty">
+            <summary>
+            This property is mapped to the Contrast variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ContrastAdjustEffect.pixelShader">
+            <summary>
+            A refernce to the pixel shader used.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.ContrastAdjustEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.ContrastAdjustEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ContrastAdjustEffect.Input">
+            <summary>
+            Gets or sets the Input shader sampler.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ContrastAdjustEffect.Brightness">
+            <summary>
+            Gets or sets the Brightness variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ContrastAdjustEffect.Contrast">
+            <summary>
+            Gets or sets the Contrast variable within the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.RippleEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.RippleEffect.CenterProperty">
+            <summary>
+            Gets or sets the Center variable within the shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.RippleEffect.AmplitudeProperty">
+            <summary>
+            Gets or sets the Amplitude variable within the shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.RippleEffect.FrequencyProperty">
+            <summary>
+            Gets or sets the Frequency variable within the shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.RippleEffect.PhaseProperty">
+            <summary>
+            Gets or sets the Phase variable within the shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.RippleEffect.InputProperty">
+            <summary>
+            Gets or sets the input brush used in the shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.RippleEffect.pixelShader">
+            <summary>
+            The pixel shader instance.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.RippleEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.RippleEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.RippleEffect.Center">
+            <summary>
+            Gets or sets the center variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.RippleEffect.Amplitude">
+            <summary>
+            Gets or sets the Amplitude variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.RippleEffect.Frequency">
+            <summary>
+            Gets or sets the frequency variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.RippleEffect.Phase">
+            <summary>
+            Gets or sets the Phase variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.RippleEffect.Input">
+            <summary>
+            Gets or sets the input used within the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.BloomEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.BloomEffect.InputProperty">
+            <summary>
+            The explict input for this pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.BloomEffect.BloomIntensityProperty">
+            <summary>
+            This property is mapped to the BloomIntensity variable within the pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.BloomEffect.BaseIntensityProperty">
+            <summary>
+            This property is mapped to the BaseIntensity variable within the pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.BloomEffect.BloomSaturationProperty">
+            <summary>
+            This property is mapped to the BloomSaturation variable within the pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.BloomEffect.BaseSaturationProperty">
+            <summary>
+            This property is mapped to the BaseSaturation variable within the pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.BloomEffect.pixelShader">
+            <summary>
+            A refernce to the pixel shader used.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.BloomEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.BloomEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.BloomEffect.Input">
+            <summary>
+            Gets or sets the Input shader sampler.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.BloomEffect.BloomIntensity">
+            <summary>
+            Gets or sets the BloomIntensity variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.BloomEffect.BaseIntensity">
+            <summary>
+            Gets or sets the BaseIntensity variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.BloomEffect.BloomSaturation">
+            <summary>
+            Gets or sets the BloomSaturation variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.BloomEffect.BaseSaturation">
+            <summary>
+            Gets or sets the BaseSaturation variable within the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.ToneMappingEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ToneMappingEffect.InputProperty">
+            <summary>
+            The explict input for this pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ToneMappingEffect.ExposureProperty">
+            <summary>
+            This property is mapped to the Exposure variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ToneMappingEffect.DefogProperty">
+            <summary>
+            This property is mapped to the Defog variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ToneMappingEffect.GammaProperty">
+            <summary>
+            This property is mapped to the Gamma variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ToneMappingEffect.FogColorProperty">
+            <summary>
+            This property is mapped to the FogColor variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ToneMappingEffect.VignetteRadiusProperty">
+            <summary>
+            This property is mapped to the VignetteRadius variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ToneMappingEffect.VignetteCenterProperty">
+            <summary>
+            This property is mapped to the VignetteCenterX variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ToneMappingEffect.BlueShiftProperty">
+            <summary>
+            This property is mapped to the BlueShift variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ToneMappingEffect.pixelShader">
+            <summary>
+            A refernce to the pixel shader used.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.ToneMappingEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.ToneMappingEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ToneMappingEffect.Input">
+            <summary>
+            Gets or sets the Input shader sampler.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ToneMappingEffect.Exposure">
+            <summary>
+            Gets or sets the Exposure variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ToneMappingEffect.Defog">
+            <summary>
+            Gets or sets the Defog variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ToneMappingEffect.Gamma">
+            <summary>
+            Gets or sets the Gamma variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ToneMappingEffect.FogColor">
+            <summary>
+            Gets or sets the FogColor variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ToneMappingEffect.VignetteRadius">
+            <summary>
+            Gets or sets the VignetteRadius variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ToneMappingEffect.VignetteCenter">
+            <summary>
+            Gets or sets the VignetteCenterX variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ToneMappingEffect.BlueShift">
+            <summary>
+            Gets or sets the BlueShift variable within the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.DirectionalBlurEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.DirectionalBlurEffect.InputProperty">
+            <summary>
+            The explict input for this pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.DirectionalBlurEffect.AngleProperty">
+            <summary>
+            This property is mapped to the Angle variable within the pixel shader. 0 is horizontal.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.DirectionalBlurEffect.BlurAmountProperty">
+            <summary>
+            This property is mapped to the BlurAmount variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.DirectionalBlurEffect.pixelShader">
+            <summary>
+            A refernce to the pixel shader used.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.DirectionalBlurEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.DirectionalBlurEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.DirectionalBlurEffect.Input">
+            <summary>
+            Gets or sets the Input shader sampler.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.DirectionalBlurEffect.Angle">
+            <summary>
+            Gets or sets the Angle variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.DirectionalBlurEffect.BlurAmount">
+            <summary>
+            Gets or sets the BlurAmount variable within the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.ColorToneEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ColorToneEffect.InputProperty">
+            <summary>
+            The explict input for this pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ColorToneEffect.DesaturationProperty">
+            <summary>
+            This property is mapped to the Desaturation variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ColorToneEffect.TonedProperty">
+            <summary>
+            This property is mapped to the Toned variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ColorToneEffect.LightColorProperty">
+            <summary>
+            This property is mapped to the LightColor variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ColorToneEffect.DarkColorProperty">
+            <summary>
+            This property is mapped to the DarkColor variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ColorToneEffect.pixelShader">
+            <summary>
+            A refernce to the pixel shader used.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.ColorToneEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.ColorToneEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ColorToneEffect.Input">
+            <summary>
+            Gets or sets the Input shader sampler.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ColorToneEffect.Desaturation">
+            <summary>
+            Gets or sets the Desaturation variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ColorToneEffect.Toned">
+            <summary>
+            Gets or sets the Toned variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ColorToneEffect.LightColor">
+            <summary>
+            Gets or sets the LightColor variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ColorToneEffect.DarkColor">
+            <summary>
+            Gets or sets the DarkColor variable within the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.ToonShaderEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ToonShaderEffect.InputProperty">
+            <summary>
+            Dependency property for the shader sampler.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.ToonShaderEffect.pixelShader">
+            <summary>
+            The pixel shader instance.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.ToonShaderEffect.#cctor">
+            <summary>
+            Creates a PixelShader by loading the bytecode.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.ToonShaderEffect.#ctor">
+            <summary>
+            Creates the and updates the registered values defined within the pixel shader using the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.ToonShaderEffect.Input">
+            <summary>
+            Gets or sets the Input variable within the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.SmoothMagnifyEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SmoothMagnifyEffect.CenterProperty">
+            <summary>
+            Gets or sets the Center variable within the shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SmoothMagnifyEffect.InnerRadiusProperty">
+            <summary>
+            Gets or sets the InnerRadius variable within the shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SmoothMagnifyEffect.MagnificationProperty">
+            <summary>
+            Gets or sets the Magnification variable within the shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SmoothMagnifyEffect.OuterRadiusProperty">
+            <summary>
+            Gets or sets the OuterRaduis variable within the shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SmoothMagnifyEffect.InputProperty">
+            <summary>
+            Gets or sets the input brush used in the shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.SmoothMagnifyEffect.pixelShader">
+            <summary>
+            The pixel shader instance.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.SmoothMagnifyEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.SmoothMagnifyEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.SmoothMagnifyEffect.Center">
+            <summary>
+            Gets or sets the center variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.SmoothMagnifyEffect.InnerRadius">
+            <summary>
+            Gets or sets the InnerRadius variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.SmoothMagnifyEffect.Magnification">
+            <summary>
+            Gets or sets the Magnification variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.SmoothMagnifyEffect.OuterRadius">
+            <summary>
+            Gets or sets the OuterRadius variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.SmoothMagnifyEffect.Input">
+            <summary>
+            Gets or sets the input brush used within the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.GloomEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.GloomEffect.InputProperty">
+            <summary>
+            The explict input for this pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.GloomEffect.GloomIntensityProperty">
+            <summary>
+            This property is mapped to the GloomIntensity variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.GloomEffect.BaseIntensityProperty">
+            <summary>
+            This property is mapped to the BaseIntensity variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.GloomEffect.GloomSaturationProperty">
+            <summary>
+            This property is mapped to the GloomSaturation variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.GloomEffect.BaseSaturationProperty">
+            <summary>
+            This property is mapped to the BaseSaturation variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.GloomEffect.pixelShader">
+            <summary>
+            A refernce to the pixel shader used.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.GloomEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.GloomEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.GloomEffect.Input">
+            <summary>
+            Gets or sets the Input shader sampler.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.GloomEffect.GloomIntensity">
+            <summary>
+            Gets or sets the GloomIntensity variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.GloomEffect.BaseIntensity">
+            <summary>
+            Gets or sets the BaseIntensity variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.GloomEffect.GloomSaturation">
+            <summary>
+            Gets or sets the GloomSaturation variable within the shader.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.GloomEffect.BaseSaturation">
+            <summary>
+            Gets or sets the BaseSaturation variable within the shader.
+            </summary>
+        </member>
+        <member name="T:ShaderEffectLibrary.BrightExtractEffect">
+            <summary>
+            This is the implementation of an extensible framework ShaderEffect which loads
+            a shader model 2 pixel shader. Dependecy properties declared in this class are mapped
+            to registers as defined in the *.ps file being loaded below.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.BrightExtractEffect.InputProperty">
+            <summary>
+            The explict input for this pixel shader.
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.BrightExtractEffect.ThresholdProperty">
+            <summary>
+            This property is mapped to the Threshold variable within the pixel shader. 
+            </summary>
+        </member>
+        <member name="F:ShaderEffectLibrary.BrightExtractEffect.pixelShader">
+            <summary>
+            A refernce to the pixel shader used.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.BrightExtractEffect.#cctor">
+            <summary>
+            Creates an instance of the shader from the included pixel shader.
+            </summary>
+        </member>
+        <member name="M:ShaderEffectLibrary.BrightExtractEffect.#ctor">
+            <summary>
+            Creates an instance and updates the shader's variables to the default values.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.BrightExtractEffect.Input">
+            <summary>
+            Gets or sets the Input shader sampler.
+            </summary>
+        </member>
+        <member name="P:ShaderEffectLibrary.BrightExtractEffect.Threshold">
+            <summary>
+            Gets or sets the Threshold variable within the shader.
+            </summary>
+        </member>
+    </members>
+</doc>
