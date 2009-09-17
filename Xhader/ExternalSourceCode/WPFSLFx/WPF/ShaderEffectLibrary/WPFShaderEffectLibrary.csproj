@@ -109,7 +109,10 @@
     <Effect Include="ShaderSource\Swirl.fx" />
     <Effect Include="ShaderSource\ToneMapping.fx" />
     <Effect Include="ShaderSource\ZoomBlur.fx" />
-    <Effect Include="ShaderSource\Ripple.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ShaderSource\Ripple.fx" />
+    <Resource Include="ShaderSource\Ripple.ps" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Binaries\" />
