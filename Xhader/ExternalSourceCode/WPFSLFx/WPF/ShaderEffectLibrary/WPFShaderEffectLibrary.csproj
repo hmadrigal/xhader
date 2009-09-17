@@ -63,6 +63,7 @@
     <Compile Include="EffectFiles\BrightExtractEffect.cs" />
     <Compile Include="EffectFiles\ColorKeyAlphaEffect.cs" />
     <Compile Include="EffectFiles\ColorToneEffect.cs" />
+    <Compile Include="EffectFiles\ColorToneAlphaEffect.cs" />
     <Compile Include="EffectFiles\ContrastAdjustEffect.cs" />
     <Compile Include="EffectFiles\DirectionalBlurEffect.cs" />
     <Compile Include="EffectFiles\EmbossedEffect.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="EffectFiles\MonochromeEffect.cs" />
     <Compile Include="EffectFiles\PinchEffect.cs" />
     <Compile Include="EffectFiles\PixelateEffect.cs" />
+    <Compile Include="EffectFiles\RippleEffect.cs" />
     <Compile Include="EffectFiles\SharpenEffect.cs" />
     <Compile Include="EffectFiles\SmoothMagnifyEffect.cs" />
     <Compile Include="EffectFiles\SwirlEffect.cs" />
@@ -83,7 +85,6 @@
     <Compile Include="EffectLibrary.cs">
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="EffectFiles\ColorToneAlphaEffect.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
     <Effect Include="ShaderSource\ToonShader.fx" />
     <Effect Include="ShaderSource\BandedSwirl.fx" />
@@ -91,6 +92,7 @@
     <Effect Include="ShaderSource\BrightExtract.fx" />
     <Effect Include="ShaderSource\ColorKeyAlpha.fx" />
     <Effect Include="ShaderSource\ColorTone.fx" />
+    <Effect Include="ShaderSource\ColorToneAlphaEffect.fx" />
     <Effect Include="ShaderSource\ContrastAdjust.fx" />
     <Effect Include="ShaderSource\DirectionalBlur.fx" />
     <Effect Include="ShaderSource\Embossed.fx" />
@@ -107,12 +109,7 @@
     <Effect Include="ShaderSource\Swirl.fx" />
     <Effect Include="ShaderSource\ToneMapping.fx" />
     <Effect Include="ShaderSource\ZoomBlur.fx" />
-  </ItemGroup>
-  <ItemGroup>
-    <Effect Include="ShaderSource\ColorToneAlphaEffect.fx" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ShaderSource\Ripple.fx" />
+    <Effect Include="ShaderSource\Ripple.fx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Binaries\" />
