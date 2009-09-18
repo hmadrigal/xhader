@@ -46,7 +46,7 @@ namespace WPFShaderEffectLibrary.Design
 
 
         /// <summary>
-        /// Provide a place to add custom attributes without creating a AttributeTableBuilder subclass.
+        /// Provide a place to add custom attributes without creating a builder subclass.
         /// </summary>
         /// <param name="builder">The assembly attribute table builder.</param>
         protected override void AddAttributes(AttributeTableBuilder builder)
@@ -147,7 +147,7 @@ namespace WPFShaderEffectLibrary.Design
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
             #endregion
-            
+
             #region ColorToneAlphaEffect
             builder.AddCallback(
                 typeof(ShaderEffectLibrary.ColorToneAlphaEffect)
@@ -423,7 +423,7 @@ namespace WPFShaderEffectLibrary.Design
                , Ext.GetMemberName<ShaderEffectLibrary.MonochromeEffect>(o => o.FilterColor)
                , new DisplayNameAttribute(@"Filter Color")
             );
-            
+
             #endregion
 
             #region PinchEffect
@@ -591,7 +591,7 @@ namespace WPFShaderEffectLibrary.Design
                , new DisplayNameAttribute(@"Angle Frequency")
                , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
             );
-            
+
             #endregion
 
             #region ToneMappingEffect
@@ -670,6 +670,151 @@ namespace WPFShaderEffectLibrary.Design
                , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
             );
 
+            #endregion
+
+            #region HatchingEffect
+            builder.AddCallback(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
+            );
+
+            //Threshold limits
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.TransparentToneThreshold)
+                , new NumberRangesAttribute(null, 0, 4, null, null)
+            );
+
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.LightToneThreshold)
+                , new NumberRangesAttribute(null, 0, 4, null, null)
+            );
+
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.MiddleToneThreshold)
+                , new NumberRangesAttribute(null, 0, 4, null, null)
+            );
+
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.DarkToneThreshold)
+                , new NumberRangesAttribute(null, 0, 4, null, null)
+            );
+
+            //Threshold increments
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.TransparentToneThreshold)
+                , new NumberIncrementsAttribute(.01, .1, 1)
+            );
+
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.LightToneThreshold)
+                , new NumberIncrementsAttribute(.01, .1, 1)
+            );
+
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.MiddleToneThreshold)
+                , new NumberIncrementsAttribute(.01, .1, 1)
+            );
+
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.DarkToneThreshold)
+                , new NumberIncrementsAttribute(.01, .1, 1)
+            );
+
+            //Threshold category
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.TransparentToneThreshold)
+                , new CategoryAttribute("Hatching Effect")
+            );
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.LightToneThreshold)
+                , new CategoryAttribute("Hatching Effect")
+            );
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.MiddleToneThreshold)
+                , new CategoryAttribute("Hatching Effect")
+            );
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.DarkToneThreshold)
+                , new CategoryAttribute("Hatching Effect")
+            );
+
+            //Threshold orders
+            PropertyOrder lastInsertedOrder = null;
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.TransparentToneThreshold)
+                , new PropertyOrderAttribute(lastInsertedOrder = PropertyOrder.CreateAfter(PropertyOrder.Default))
+            );
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.LightToneThreshold)
+                , new PropertyOrderAttribute(lastInsertedOrder = PropertyOrder.CreateAfter(lastInsertedOrder))
+            );
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.MiddleToneThreshold)
+                , new PropertyOrderAttribute(lastInsertedOrder = PropertyOrder.CreateAfter(lastInsertedOrder))
+            );
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.DarkToneThreshold)
+                , new PropertyOrderAttribute(lastInsertedOrder = PropertyOrder.CreateAfter(lastInsertedOrder))
+            );
+
+            //Threshold descriptions
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.TransparentToneThreshold)
+                , new DescriptionAttribute("Define the threshold (1-4) for transparency to predominate")
+            );
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.LightToneThreshold)
+                , new DescriptionAttribute("Define the threshold (1-4) for light tone texture to predominate")
+            );
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.MiddleToneThreshold)
+                , new DescriptionAttribute("Define the threshold (1-4) for middle tone texture to predominate")
+            );
+            builder.AddCustomAttributes(typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.DarkToneThreshold)
+                , new DescriptionAttribute("Define the threshold (1-4) for dark tone texture to predominate")
+            );
+
+            //Hiding the input texture from inspections
+            //builder.AddCustomAttributes(
+            //    typeof(ShaderEffectLibrary.HatchingEffect)
+            //    , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.Input)
+            //    , new BrowsableAttribute(false)
+            //);
+            //builder.AddCustomAttributes(
+            //    typeof(ShaderEffectLibrary.HatchingEffect)
+            //    , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.LightToneTexture)
+            //    , new BrowsableAttribute(false)
+            //);
+            //builder.AddCustomAttributes(
+            //    typeof(ShaderEffectLibrary.HatchingEffect)
+            //    , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.MiddleToneTexture)
+            //    , new BrowsableAttribute(false)
+            //);
+            //builder.AddCustomAttributes(
+            //    typeof(ShaderEffectLibrary.HatchingEffect)
+            //    , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.DarkToneTexture)
+            //    , new BrowsableAttribute(false)
+            //);
             #endregion
         }
     }

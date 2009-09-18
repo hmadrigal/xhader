@@ -82,9 +82,9 @@
     <Compile Include="EffectFiles\ToneMappingEffect.cs" />
     <Compile Include="EffectFiles\ToonShaderEffect.cs" />
     <Compile Include="EffectFiles\ZoomBlurEffect.cs" />
-    <Compile Include="EffectLibrary.cs">
-    </Compile>
+    <Compile Include="EffectLibrary.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="EffectFiles\HatchingEffect.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
     <Effect Include="ShaderSource\ToonShader.fx" />
     <Effect Include="ShaderSource\BandedSwirl.fx" />
@@ -109,10 +109,16 @@
     <Effect Include="ShaderSource\Swirl.fx" />
     <Effect Include="ShaderSource\ToneMapping.fx" />
     <Effect Include="ShaderSource\ZoomBlur.fx" />
+    <Effect Include="ShaderSource\HatchingEffect.fx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ShaderSource\Ripple.fx" />
     <Resource Include="ShaderSource\Ripple.ps" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Textures\DarkToneTexture.png" />
+    <Resource Include="Textures\LightToneTexture.png" />
+    <Resource Include="Textures\MiddleToneTexture.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Binaries\" />

@@ -84,6 +84,9 @@
     <Compile Include="..\..\WPF\ShaderEffectLibrary\EffectFiles\GrowablePoissonDiskEffect.cs">
       <Link>EffectFiles\GrowablePoissonDiskEffect.cs</Link>
     </Compile>
+    <Compile Include="..\..\WPF\ShaderEffectLibrary\EffectFiles\HatchingEffect.cs">
+      <Link>EffectFiles\HatchingEffect.cs</Link>
+    </Compile>
     <Compile Include="..\..\WPF\ShaderEffectLibrary\EffectFiles\InvertColorEffect.cs">
       <Link>EffectFiles\InvertColorEffect.cs</Link>
     </Compile>
@@ -158,6 +161,14 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="ShaderSource\Ripple.ps" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ShaderSource\HatchingEffect.ps" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Textures\DarkToneTexture.png" />
+    <Resource Include="Textures\LightToneTexture.png" />
+    <Resource Include="Textures\MiddleToneTexture.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Binaries\" />
