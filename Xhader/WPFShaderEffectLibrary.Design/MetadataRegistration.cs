@@ -678,7 +678,7 @@ namespace WPFShaderEffectLibrary.Design
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
 
-            PropertyOrder lastInsertedOrder = null;
+            PropertyOrder lastInsertedOrderForHatchingEffect = null;
 
             builder.AddCustomAttributes(
                 typeof(ShaderEffectLibrary.HatchingEffect)
@@ -687,7 +687,7 @@ namespace WPFShaderEffectLibrary.Design
                 , new NumberRangesAttribute(null, 0, 4, null, null)
                 , new NumberIncrementsAttribute(.01, .1, 1)
                 , new CategoryAttribute("Hatching Effect")
-                , new PropertyOrderAttribute(lastInsertedOrder = PropertyOrder.CreateAfter(PropertyOrder.Default))
+                , new PropertyOrderAttribute(lastInsertedOrderForHatchingEffect = PropertyOrder.CreateAfter(PropertyOrder.Default))
             );
 
             builder.AddCustomAttributes(
@@ -697,7 +697,7 @@ namespace WPFShaderEffectLibrary.Design
                 , new NumberRangesAttribute(null, 0, 4, null, null)
                 , new NumberIncrementsAttribute(.01, .1, 1)
                 , new CategoryAttribute("Hatching Effect")
-                , new PropertyOrderAttribute(lastInsertedOrder = PropertyOrder.CreateAfter(lastInsertedOrder))
+                , new PropertyOrderAttribute(lastInsertedOrderForHatchingEffect = PropertyOrder.CreateAfter(lastInsertedOrderForHatchingEffect))
             );
 
             builder.AddCustomAttributes(
@@ -707,7 +707,7 @@ namespace WPFShaderEffectLibrary.Design
                 , new NumberRangesAttribute(null, 0, 4, null, null)
                 , new CategoryAttribute("Hatching Effect")
                 , new NumberIncrementsAttribute(.01, .1, 1)
-                , new PropertyOrderAttribute(lastInsertedOrder = PropertyOrder.CreateAfter(lastInsertedOrder))
+                , new PropertyOrderAttribute(lastInsertedOrderForHatchingEffect = PropertyOrder.CreateAfter(lastInsertedOrderForHatchingEffect))
             );
 
             builder.AddCustomAttributes(
@@ -717,7 +717,7 @@ namespace WPFShaderEffectLibrary.Design
                 , new NumberRangesAttribute(null, 0, 4, null, null)
                 , new NumberIncrementsAttribute(.01, .1, 1)
                 , new CategoryAttribute("Hatching Effect")
-                , new PropertyOrderAttribute(lastInsertedOrder = PropertyOrder.CreateAfter(lastInsertedOrder))
+                , new PropertyOrderAttribute(lastInsertedOrderForHatchingEffect = PropertyOrder.CreateAfter(lastInsertedOrderForHatchingEffect))
             );
             #endregion
 
@@ -746,6 +746,32 @@ namespace WPFShaderEffectLibrary.Design
             );
 
             #endregion
+
+            #region LogoDisplacerEffect
+            builder.AddCallback(
+                typeof(ShaderEffectLibrary.LogoDisplacerEffect)
+                , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
+            );
+
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.LogoDisplacerEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.LogoDisplacerEffect>(o => o.Displacement)
+                , new NumberRangesAttribute(null, -50, 50, null, null)
+                , new NumberIncrementsAttribute(.01, .1, 1)
+            );
+
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.LogoDisplacerEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.LogoDisplacerEffect>(o => o.AdditionalLogoOpacity)
+                , new DisplayNameAttribute(@"Additional Logo Opacity")
+                , new NumberRangesAttribute(null, 0, 1.5, null, null)
+                , new NumberIncrementsAttribute(0.01, 0.025, 0.1)
+            );
+            
+            
+            #endregion
+
+            
         }
     }
 }

@@ -97,6 +97,9 @@
     <Compile Include="..\..\WPF\ShaderEffectLibrary\EffectFiles\LightStreakEffect.cs">
       <Link>EffectFiles\LightStreakEffect.cs</Link>
     </Compile>
+    <Compile Include="..\..\WPF\ShaderEffectLibrary\EffectFiles\LogoDisplacerEffect.cs">
+      <Link>EffectFiles\LogoDisplacerEffect.cs</Link>
+    </Compile>
     <Compile Include="..\..\WPF\ShaderEffectLibrary\EffectFiles\MagnifyEffect.cs">
       <Link>EffectFiles\MagnifyEffect.cs</Link>
     </Compile>
@@ -176,6 +179,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="ShaderSource\ChromaKeyAlphaEffect.ps" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ShaderSource\LogoDisplacerEffect.ps" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Binaries\" />
