@@ -31,7 +31,10 @@ namespace ShaderEffectLibrary
 #if SILVERLIGHT
     using UIPropertyMetadata = System.Windows.PropertyMetadata;    
 #endif
-    
+    /// <summary>
+    /// Hatching Effect is a simple multi-texture sampler that takes the luminance level 
+    /// of the implicit input and uses thresholds to determine which tone texture to use.
+    /// </summary>
     public class HatchingEffect : ShaderEffect
     {
         #region Constructors
@@ -121,7 +124,9 @@ namespace ShaderEffectLibrary
         //////////////////////////////////////////////////////////////////////////
         // Thresholds 
         //////////////////////////////////////////////////////////////////////////
-
+        /// <summary>
+        /// Define the threshold (1-4) for transparency to predominate
+        /// </summary>
         public double TransparentToneThreshold
         {
             get { return (double)GetValue(TransparentToneThresholdProperty); }
@@ -134,6 +139,9 @@ namespace ShaderEffectLibrary
             DependencyProperty.Register("TransparentToneThreshold", typeof(double), typeof(HatchingEffect),
                     new PropertyMetadata(4.0, PixelShaderConstantCallback(0)));
 
+        /// <summary>
+        /// Define the threshold (1-4) for light tone texture to predominate
+        /// </summary>
         public double LightToneThreshold
         {
             get { return (double)GetValue(LightToneThresholdProperty); }
@@ -146,6 +154,9 @@ namespace ShaderEffectLibrary
             DependencyProperty.Register("LightToneThreshold", typeof(double), typeof(HatchingEffect),
                     new PropertyMetadata(3.0, PixelShaderConstantCallback(1)));
 
+        /// <summary>
+        /// Define the threshold (1-4) for middle tone texture to predominate
+        /// </summary>
         public double MiddleToneThreshold
         {
             get { return (double)GetValue(MiddleToneThresholdProperty); }
@@ -158,6 +169,9 @@ namespace ShaderEffectLibrary
             DependencyProperty.Register("MiddleToneThreshold", typeof(double), typeof(HatchingEffect),
                     new PropertyMetadata(2.0, PixelShaderConstantCallback(2)));
 
+        /// <summary>
+        /// Define the threshold (1-4) for dark tone texture to predominate
+        /// </summary>
         public double DarkToneThreshold
         {
             get { return (double)GetValue(DarkToneThresholdProperty); }

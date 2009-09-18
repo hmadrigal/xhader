@@ -678,143 +678,73 @@ namespace WPFShaderEffectLibrary.Design
                 , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
             );
 
-            //Threshold limits
-            builder.AddCustomAttributes(
-                typeof(ShaderEffectLibrary.HatchingEffect)
-                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.TransparentToneThreshold)
-                , new NumberRangesAttribute(null, 0, 4, null, null)
-            );
-
-            builder.AddCustomAttributes(
-                typeof(ShaderEffectLibrary.HatchingEffect)
-                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.LightToneThreshold)
-                , new NumberRangesAttribute(null, 0, 4, null, null)
-            );
-
-            builder.AddCustomAttributes(
-                typeof(ShaderEffectLibrary.HatchingEffect)
-                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.MiddleToneThreshold)
-                , new NumberRangesAttribute(null, 0, 4, null, null)
-            );
-
-            builder.AddCustomAttributes(
-                typeof(ShaderEffectLibrary.HatchingEffect)
-                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.DarkToneThreshold)
-                , new NumberRangesAttribute(null, 0, 4, null, null)
-            );
-
-            //Threshold increments
-            builder.AddCustomAttributes(
-                typeof(ShaderEffectLibrary.HatchingEffect)
-                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.TransparentToneThreshold)
-                , new NumberIncrementsAttribute(.01, .1, 1)
-            );
-
-            builder.AddCustomAttributes(
-                typeof(ShaderEffectLibrary.HatchingEffect)
-                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.LightToneThreshold)
-                , new NumberIncrementsAttribute(.01, .1, 1)
-            );
-
-            builder.AddCustomAttributes(
-                typeof(ShaderEffectLibrary.HatchingEffect)
-                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.MiddleToneThreshold)
-                , new NumberIncrementsAttribute(.01, .1, 1)
-            );
-
-            builder.AddCustomAttributes(
-                typeof(ShaderEffectLibrary.HatchingEffect)
-                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.DarkToneThreshold)
-                , new NumberIncrementsAttribute(.01, .1, 1)
-            );
-
-            //Threshold category
-            builder.AddCustomAttributes(
-                typeof(ShaderEffectLibrary.HatchingEffect)
-                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.TransparentToneThreshold)
-                , new CategoryAttribute("Hatching Effect")
-            );
-            builder.AddCustomAttributes(
-                typeof(ShaderEffectLibrary.HatchingEffect)
-                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.LightToneThreshold)
-                , new CategoryAttribute("Hatching Effect")
-            );
-            builder.AddCustomAttributes(
-                typeof(ShaderEffectLibrary.HatchingEffect)
-                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.MiddleToneThreshold)
-                , new CategoryAttribute("Hatching Effect")
-            );
-            builder.AddCustomAttributes(
-                typeof(ShaderEffectLibrary.HatchingEffect)
-                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.DarkToneThreshold)
-                , new CategoryAttribute("Hatching Effect")
-            );
-
-            //Threshold orders
             PropertyOrder lastInsertedOrder = null;
+
             builder.AddCustomAttributes(
                 typeof(ShaderEffectLibrary.HatchingEffect)
                 , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.TransparentToneThreshold)
+                , new DisplayNameAttribute(@"Transparent Tone Threshold")
+                , new NumberRangesAttribute(null, 0, 4, null, null)
+                , new NumberIncrementsAttribute(.01, .1, 1)
+                , new CategoryAttribute("Hatching Effect")
                 , new PropertyOrderAttribute(lastInsertedOrder = PropertyOrder.CreateAfter(PropertyOrder.Default))
             );
+
             builder.AddCustomAttributes(
                 typeof(ShaderEffectLibrary.HatchingEffect)
                 , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.LightToneThreshold)
-                , new PropertyOrderAttribute(lastInsertedOrder = PropertyOrder.CreateAfter(lastInsertedOrder))
-            );
-            builder.AddCustomAttributes(
-                typeof(ShaderEffectLibrary.HatchingEffect)
-                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.MiddleToneThreshold)
-                , new PropertyOrderAttribute(lastInsertedOrder = PropertyOrder.CreateAfter(lastInsertedOrder))
-            );
-            builder.AddCustomAttributes(
-                typeof(ShaderEffectLibrary.HatchingEffect)
-                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.DarkToneThreshold)
+                , new DisplayNameAttribute(@"Light Tone Threshold")
+                , new NumberRangesAttribute(null, 0, 4, null, null)
+                , new NumberIncrementsAttribute(.01, .1, 1)
+                , new CategoryAttribute("Hatching Effect")
                 , new PropertyOrderAttribute(lastInsertedOrder = PropertyOrder.CreateAfter(lastInsertedOrder))
             );
 
-            //Threshold descriptions
-            builder.AddCustomAttributes(
-                typeof(ShaderEffectLibrary.HatchingEffect)
-                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.TransparentToneThreshold)
-                , new DescriptionAttribute("Define the threshold (1-4) for transparency to predominate")
-            );
-            builder.AddCustomAttributes(
-                typeof(ShaderEffectLibrary.HatchingEffect)
-                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.LightToneThreshold)
-                , new DescriptionAttribute("Define the threshold (1-4) for light tone texture to predominate")
-            );
             builder.AddCustomAttributes(
                 typeof(ShaderEffectLibrary.HatchingEffect)
                 , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.MiddleToneThreshold)
-                , new DescriptionAttribute("Define the threshold (1-4) for middle tone texture to predominate")
-            );
-            builder.AddCustomAttributes(typeof(ShaderEffectLibrary.HatchingEffect)
-                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.DarkToneThreshold)
-                , new DescriptionAttribute("Define the threshold (1-4) for dark tone texture to predominate")
+                , new DisplayNameAttribute(@"Middle Tone Threshold")
+                , new NumberRangesAttribute(null, 0, 4, null, null)
+                , new CategoryAttribute("Hatching Effect")
+                , new NumberIncrementsAttribute(.01, .1, 1)
+                , new PropertyOrderAttribute(lastInsertedOrder = PropertyOrder.CreateAfter(lastInsertedOrder))
             );
 
-            //Hiding the input texture from inspections
-            //builder.AddCustomAttributes(
-            //    typeof(ShaderEffectLibrary.HatchingEffect)
-            //    , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.Input)
-            //    , new BrowsableAttribute(false)
-            //);
-            //builder.AddCustomAttributes(
-            //    typeof(ShaderEffectLibrary.HatchingEffect)
-            //    , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.LightToneTexture)
-            //    , new BrowsableAttribute(false)
-            //);
-            //builder.AddCustomAttributes(
-            //    typeof(ShaderEffectLibrary.HatchingEffect)
-            //    , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.MiddleToneTexture)
-            //    , new BrowsableAttribute(false)
-            //);
-            //builder.AddCustomAttributes(
-            //    typeof(ShaderEffectLibrary.HatchingEffect)
-            //    , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.DarkToneTexture)
-            //    , new BrowsableAttribute(false)
-            //);
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.HatchingEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.HatchingEffect>(o => o.DarkToneThreshold)
+                , new DisplayNameAttribute(@"Dark Tone Threshold")
+                , new NumberRangesAttribute(null, 0, 4, null, null)
+                , new NumberIncrementsAttribute(.01, .1, 1)
+                , new CategoryAttribute("Hatching Effect")
+                , new PropertyOrderAttribute(lastInsertedOrder = PropertyOrder.CreateAfter(lastInsertedOrder))
+            );
+            #endregion
+
+            #region ChromaKeyAlphaEffect
+            // Description for asset library
+            builder.AddCallback(
+                typeof(ShaderEffectLibrary.ChromaKeyAlphaEffect)
+                , b => b.AddCustomAttributes(new ToolboxBrowsableAttribute(true))
+            );
+
+            // Make the slider appear in the Common properties.
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.ChromaKeyAlphaEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.ChromaKeyAlphaEffect>(o => o.Tolerance)
+                , new CategoryAttribute("Chroma Key")
+                , new NumberIncrementsAttribute(.001, .01, 0.1)
+                , new NumberRangesAttribute(new double?(0), new double?(0), 1, 1, null)
+            );
+
+            // Make the slider appear in the Common properties.
+            builder.AddCustomAttributes(
+                typeof(ShaderEffectLibrary.ChromaKeyAlphaEffect)
+                , Ext.GetMemberName<ShaderEffectLibrary.ChromaKeyAlphaEffect>(o => o.ColorKey)
+                , new DisplayNameAttribute(@"Color Key")
+                , new CategoryAttribute("Chroma Key")
+            );
+
             #endregion
         }
     }
