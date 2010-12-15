@@ -24,13 +24,13 @@ public static class Extensions
     } 
 } 
 
-namespace System.ComponentModel
-{
-    public class BrowsableAttribute : Attribute
-    {
+//namespace System.ComponentModel
+//{
+//    public class BrowsableAttribute : Attribute
+//    {
 
-        public BrowsableAttribute(bool unused)
-        {
-        }
-    } 
-} 
+//        public BrowsableAttribute(bool unused)
+//        {
+//        }
+//    } 
+//} 

@@ -124,12 +124,6 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ExternalSourceCode\WPFSLFx\SL\SLShaderEffectLibrary\SLShaderEffectLibrary.csproj">
-      <Project>{C9A87706-BDD5-4596-9B4D-59EEA4BA6407}</Project>
-      <Name>SLShaderEffectLibrary</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="..\ExternalSourceCode\WPFSLFx\SL\SLShaderEffectLibrary\Binaries\SLShaderEffectLibrary.XML">
       <Link>SLShaderEffectLibrary.XML</Link>
     </EmbeddedResource>
@@ -150,6 +144,12 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExternalSourceCode\WPFSLFx\SL\SLShaderEffectLibrary\SLShaderEffectLibrary.csproj">
+      <Project>{C9A87706-BDD5-4596-9B4D-59EEA4BA6407}</Project>
+      <Name>SLShaderEffectLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
