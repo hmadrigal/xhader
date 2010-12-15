@@ -1,29 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPFSLFx", "WPFSLFx", "{07F7E97C-D117-41A9-B5CE-4E5DE75066A4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalSourceCode", "ExternalSourceCode", "{C36A7DFF-29DC-4E71-B635-D723CD08C9DD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDemoApp", "ExternalSourceCode\WPFSLFx\WPF\Demo_wpf\WPFDemoApp.csproj", "{1E53BE4C-D5A3-4572-8780-FAFEE0619D7E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFShaderEffectLibrary", "ExternalSourceCode\WPFSLFx\WPF\ShaderEffectLibrary\WPFShaderEffectLibrary.csproj", "{967D61A9-C8F0-4C2A-A784-6CDA648ECB19}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTransitionEffects", "ExternalSourceCode\WPFSLFx\WPF\TransitionEffects\WPFTransitionEffects.csproj", "{9FEDF2F2-D59E-4797-A5AE-13A25E679F6A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLEffectHarness", "ExternalSourceCode\WPFSLFx\SL\Demo_silverlight\SLEffectHarness\SLEffectHarness.csproj", "{D8AEA392-A238-4483-8BA1-D2777824E14F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLEffectHarness.Web", "ExternalSourceCode\WPFSLFx\SL\Demo_silverlight\SLEffectHarness.Web\SLEffectHarness.Web.csproj", "{07586428-4E14-4E01-901D-AC48436346AA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLShaderEffectLibrary", "ExternalSourceCode\WPFSLFx\SL\SLShaderEffectLibrary\SLShaderEffectLibrary.csproj", "{C9A87706-BDD5-4596-9B4D-59EEA4BA6407}"
-	ProjectSection(ProjectDependencies) = postProject
-		{967D61A9-C8F0-4C2A-A784-6CDA648ECB19} = {967D61A9-C8F0-4C2A-A784-6CDA648ECB19}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLTransitionEffects", "ExternalSourceCode\WPFSLFx\SL\SLTransitionEffects\SLTransitionEffects.csproj", "{0C8D967A-FF1B-4F1D-95E9-9203D6D04783}"
-	ProjectSection(ProjectDependencies) = postProject
-		{9FEDF2F2-D59E-4797-A5AE-13A25E679F6A} = {9FEDF2F2-D59E-4797-A5AE-13A25E679F6A}
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalLibraries", "ExternalLibraries", "{894D68E6-09F5-4AC6-80B3-6003FA263B7E}"
 EndProject
@@ -47,6 +27,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Silverlight", "Silverlight"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9FE4A457-6E9F-4D15-AAAA-AFE1E3F2712B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDemoApp", "ExternalSourceCode\WPFSLFx\WPF\Demo_wpf\WPFDemoApp.csproj", "{1E53BE4C-D5A3-4572-8780-FAFEE0619D7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFShaderEffectLibrary", "ExternalSourceCode\WPFSLFx\WPF\ShaderEffectLibrary\WPFShaderEffectLibrary.csproj", "{967D61A9-C8F0-4C2A-A784-6CDA648ECB19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTransitionEffects", "ExternalSourceCode\WPFSLFx\WPF\TransitionEffects\WPFTransitionEffects.csproj", "{9FEDF2F2-D59E-4797-A5AE-13A25E679F6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLEffectHarness", "ExternalSourceCode\WPFSLFx\SL\Demo_silverlight\SLEffectHarness\SLEffectHarness.csproj", "{D8AEA392-A238-4483-8BA1-D2777824E14F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLEffectHarness.Web", "ExternalSourceCode\WPFSLFx\SL\Demo_silverlight\SLEffectHarness.Web\SLEffectHarness.Web.csproj", "{07586428-4E14-4E01-901D-AC48436346AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLShaderEffectLibrary", "ExternalSourceCode\WPFSLFx\SL\SLShaderEffectLibrary\SLShaderEffectLibrary.csproj", "{C9A87706-BDD5-4596-9B4D-59EEA4BA6407}"
+	ProjectSection(ProjectDependencies) = postProject
+		{967D61A9-C8F0-4C2A-A784-6CDA648ECB19} = {967D61A9-C8F0-4C2A-A784-6CDA648ECB19}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLTransitionEffects", "ExternalSourceCode\WPFSLFx\SL\SLTransitionEffects\SLTransitionEffects.csproj", "{0C8D967A-FF1B-4F1D-95E9-9203D6D04783}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9FEDF2F2-D59E-4797-A5AE-13A25E679F6A} = {9FEDF2F2-D59E-4797-A5AE-13A25E679F6A}
+	EndProjectSection
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLTransitionEffects.Design", "SLTransitionEffects.Design\SLTransitionEffects.Design.csproj", "{D3D9D1CD-0719-4718-870C-D792F06DD4BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTransitionEffects.Design", "WPFTransitionEffects.Design\WPFTransitionEffects.Design.csproj", "{1DF52744-9F45-4E6A-9C3C-35EA4D0A1771}"
@@ -61,7 +61,7 @@ Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
 		SccNumberOfProjects = 13
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs09.codeplex.com/
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs09
 		SccLocalPath0 = .
 		SccProjectUniqueName1 = ExternalSourceCode\\WPFSLFx\\SL\\Demo_silverlight\\SLEffectHarness.Web\\SLEffectHarness.Web.csproj
 		SccProjectTopLevelParentUniqueName1 = Xhader.sln
@@ -167,16 +167,16 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C36A7DFF-29DC-4E71-B635-D723CD08C9DD} = {9FE4A457-6E9F-4D15-AAAA-AFE1E3F2712B}
 		{894D68E6-09F5-4AC6-80B3-6003FA263B7E} = {9FE4A457-6E9F-4D15-AAAA-AFE1E3F2712B}
-		{07F7E97C-D117-41A9-B5CE-4E5DE75066A4} = {C36A7DFF-29DC-4E71-B635-D723CD08C9DD}
 		{CE6AA259-59CB-4FB6-A8FC-D92E60C23629} = {C36A7DFF-29DC-4E71-B635-D723CD08C9DD}
+		{07F7E97C-D117-41A9-B5CE-4E5DE75066A4} = {C36A7DFF-29DC-4E71-B635-D723CD08C9DD}
+		{EAC492EC-0EEE-4103-B243-CE0431F89236} = {894D68E6-09F5-4AC6-80B3-6003FA263B7E}
+		{83756C8A-DFB7-479C-A558-FB2F7C8480B9} = {894D68E6-09F5-4AC6-80B3-6003FA263B7E}
+		{1E53BE4C-D5A3-4572-8780-FAFEE0619D7E} = {07F7E97C-D117-41A9-B5CE-4E5DE75066A4}
 		{967D61A9-C8F0-4C2A-A784-6CDA648ECB19} = {07F7E97C-D117-41A9-B5CE-4E5DE75066A4}
 		{9FEDF2F2-D59E-4797-A5AE-13A25E679F6A} = {07F7E97C-D117-41A9-B5CE-4E5DE75066A4}
 		{D8AEA392-A238-4483-8BA1-D2777824E14F} = {07F7E97C-D117-41A9-B5CE-4E5DE75066A4}
 		{07586428-4E14-4E01-901D-AC48436346AA} = {07F7E97C-D117-41A9-B5CE-4E5DE75066A4}
 		{C9A87706-BDD5-4596-9B4D-59EEA4BA6407} = {07F7E97C-D117-41A9-B5CE-4E5DE75066A4}
 		{0C8D967A-FF1B-4F1D-95E9-9203D6D04783} = {07F7E97C-D117-41A9-B5CE-4E5DE75066A4}
-		{1E53BE4C-D5A3-4572-8780-FAFEE0619D7E} = {07F7E97C-D117-41A9-B5CE-4E5DE75066A4}
-		{EAC492EC-0EEE-4103-B243-CE0431F89236} = {894D68E6-09F5-4AC6-80B3-6003FA263B7E}
-		{83756C8A-DFB7-479C-A558-FB2F7C8480B9} = {894D68E6-09F5-4AC6-80B3-6003FA263B7E}
 	EndGlobalSection
 EndGlobal
