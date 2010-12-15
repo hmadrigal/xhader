@@ -14,7 +14,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SLEffectHarness</RootNamespace>
     <AssemblyName>SLEffectHarness</AssemblyName>
-    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <SilverlightApplication>true</SilverlightApplication>
     <SupportedCultures>
     </SupportedCultures>
@@ -55,6 +55,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -87,12 +88,32 @@
     <Reference Include="System.Net" />
     <Reference Include="System.Windows.Controls, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Windows.Controls.Data, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
-    <Reference Include="System.Windows.Controls.DataVisualization.Toolkit, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Data.DataForm.Toolkit">
+      <HintPath>..\..\..\..\..\ExternalLibraries\Silverlight\Silverlight Toolkit\April 2010 Silverlight Toolkit\Bin\System.Windows.Controls.Data.DataForm.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Data.Toolkit">
+      <HintPath>..\..\..\..\..\ExternalLibraries\Silverlight\Silverlight Toolkit\April 2010 Silverlight Toolkit\Bin\System.Windows.Controls.Data.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Controls.DataVisualization.Toolkit">
+      <HintPath>..\..\..\..\..\ExternalLibraries\Silverlight\Silverlight Toolkit\April 2010 Silverlight Toolkit\Bin\System.Windows.Controls.DataVisualization.Toolkit.dll</HintPath>
+    </Reference>
     <Reference Include="System.Windows.Controls.Input, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
-    <Reference Include="System.Windows.Controls.Input.Toolkit, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
-    <Reference Include="System.Windows.Controls.Theming.ShinyBlue, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
-    <Reference Include="System.Windows.Controls.Theming.Toolkit, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
-    <Reference Include="System.Windows.Controls.Toolkit, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Input.Toolkit">
+      <HintPath>..\..\..\..\..\ExternalLibraries\Silverlight\Silverlight Toolkit\April 2010 Silverlight Toolkit\Bin\System.Windows.Controls.Input.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Layout.Toolkit">
+      <HintPath>..\..\..\..\..\ExternalLibraries\Silverlight\Silverlight Toolkit\April 2010 Silverlight Toolkit\Bin\System.Windows.Controls.Layout.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Theming.ShinyBlue">
+      <HintPath>..\..\..\..\..\ExternalLibraries\Silverlight\Silverlight Toolkit\April 2010 Silverlight Toolkit\Themes\System.Windows.Controls.Theming.ShinyBlue.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Theming.ShinyRed">
+      <HintPath>..\..\..\..\..\ExternalLibraries\Silverlight\Silverlight Toolkit\April 2010 Silverlight Toolkit\Themes\System.Windows.Controls.Theming.ShinyRed.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Theming.Toolkit">
+      <HintPath>..\..\..\..\..\ExternalLibraries\Silverlight\Silverlight Toolkit\April 2010 Silverlight Toolkit\Bin\System.Windows.Controls.Theming.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Toolkit, Version=4.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Windows.Browser" />
   </ItemGroup>
@@ -172,16 +193,6 @@
     <None Include="Properties\AppManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SLShaderEffectLibrary\SLShaderEffectLibrary.csproj">
-      <Project>{C9A87706-BDD5-4596-9B4D-59EEA4BA6407}</Project>
-      <Name>SLShaderEffectLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\SLTransitionEffects\SLTransitionEffects.csproj">
-      <Project>{0C8D967A-FF1B-4F1D-95E9-9203D6D04783}</Project>
-      <Name>SLTransitionEffects</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
@@ -197,6 +208,16 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SLShaderEffectLibrary\SLShaderEffectLibrary.csproj">
+      <Project>{C9A87706-BDD5-4596-9B4D-59EEA4BA6407}</Project>
+      <Name>SLShaderEffectLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SLTransitionEffects\SLTransitionEffects.csproj">
+      <Project>{0C8D967A-FF1B-4F1D-95E9-9203D6D04783}</Project>
+      <Name>SLTransitionEffects</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

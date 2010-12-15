@@ -50,7 +50,6 @@
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Web.Silverlight, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
@@ -63,8 +62,8 @@
   <ItemGroup>
     <Content Include="ClientBin\SLEffectHarness.xap" />
     <Content Include="Silverlight.js" />
-    <Content Include="Default.aspx" />
-    <Content Include="Default.html" />
+    <Content Include="SLEffectHarnessTestPage.aspx" />
+    <Content Include="SLEffectHarnessTestPage.html" />
     <Content Include="TransitionImages\0.png" />
     <Content Include="TransitionImages\1.png" />
     <Content Include="TransitionImages\2.png" />
