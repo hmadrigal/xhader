@@ -43,9 +43,10 @@
         /// </summary>
         public static readonly DependencyProperty InputProperty = ShaderEffect.RegisterPixelShaderSamplerProperty("Input", typeof(SkinBloodEffect), 0);
 
-        /// <summary>
-        /// Stroke
-        /// </summary>
+        /// <summary>Explain the purpose of this variable.</summary>
+        /// <minValue>05/minValue>
+        /// <maxValue>10</maxValue>
+        /// <defaultValue>3.5</defaultValue>
         public Brush Stroke1
         {
             get
@@ -57,14 +58,16 @@
                 this.SetValue(Stroke1Property, value);
             }
         }
-        /// <summary>
-        /// Stroke
-        /// </summary>
+        /// <summary>Explain the purpose of this variable.</summary>
+        /// <minValue>05/minValue>
+        /// <maxValue>10</maxValue>
+        /// <defaultValue>3.5</defaultValue>
         public static readonly DependencyProperty Stroke1Property = ShaderEffect.RegisterPixelShaderSamplerProperty("Stroke1", typeof(SkinBloodEffect), 1);
 
-        /// <summary>
-        /// Tile
-        /// </summary>
+        /// <summary>Explain the purpose of this variable.</summary>
+        /// <minValue>1,1/minValue>
+        /// <maxValue>100,100</maxValue>
+        /// <defaultValue>7,7</defaultValue>
         public Point Tile
         {
             get
@@ -77,9 +80,10 @@
             }
         }
 
-        /// <summary>
-        /// Tile
-        /// </summary>
+        /// <summary>Explain the purpose of this variable.</summary>
+        /// <minValue>1,1/minValue>
+        /// <maxValue>100,100</maxValue>
+        /// <defaultValue>7,7</defaultValue>
         public static readonly DependencyProperty TileProperty = DependencyProperty.Register("Tile", typeof(Point), typeof(SkinBloodEffect), new PropertyMetadata(new Point(7, 7), PixelShaderConstantCallback(1)));
 
         /// <summary>
