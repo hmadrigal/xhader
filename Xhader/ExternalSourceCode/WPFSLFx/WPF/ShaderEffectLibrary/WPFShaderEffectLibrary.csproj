@@ -82,6 +82,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EffectFiles\TextEffect.cs" />
     <Compile Include="EffectFiles\BandedSwirlEffect.cs" />
     <Compile Include="EffectFiles\BloomEffect.cs" />
     <Compile Include="EffectFiles\BrightExtractEffect.cs" />
@@ -148,6 +149,7 @@
     <Effect Include="ShaderSource\NoiseEffect.fx" />
     <Effect Include="ShaderSource\ShiftHueEffect.fx" />
     <Effect Include="ShaderSource\TileEffect.fx" />
+    <Effect Include="ShaderSource\TextEffect.fx" />
     <None Include="ShaderSource\Ripple.fx" />
   </ItemGroup>
   <ItemGroup>
