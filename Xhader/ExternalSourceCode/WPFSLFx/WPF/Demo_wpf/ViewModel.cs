@@ -259,6 +259,7 @@ namespace ExtensibleDemoApp
                     _effects.Add(new EffectViewItem(new ShaderEffectLibrary.EmbossedEffect()));
                     _effects.Add(new EffectViewItem(new ShaderEffectLibrary.GloomEffect()));
                     _effects.Add(new EffectViewItem(new ShaderEffectLibrary.GrowablePoissonDiskEffect()));
+                    _effects.Add(new EffectViewItem(new ShaderEffectLibrary.HatchingEffect()));
                     _effects.Add(new EffectViewItem(new ShaderEffectLibrary.InvertColorEffect()));
                     _effects.Add(new EffectViewItem(new ShaderEffectLibrary.LightStreakEffect()));
                     _effects.Add(new EffectViewItem(new ShaderEffectLibrary.MagnifyEffect()));
@@ -273,7 +274,10 @@ namespace ExtensibleDemoApp
                     _effects.Add(new EffectViewItem(new ShaderEffectLibrary.ToonShaderEffect()));
                     _effects.Add(new EffectViewItem(new ShaderEffectLibrary.ZoomBlurEffect()));
                     _effects.Add(new EffectViewItem(new ShaderEffectLibrary.SkinBloodEffect()));
-
+                    _effects.Add(new EffectViewItem(new ShaderEffectLibrary.NoiseEffect()));
+                    _effects.Add(new EffectViewItem(new ShaderEffectLibrary.ShiftHueEffect()));
+                    _effects.Add(new EffectViewItem(new ShaderEffectLibrary.TileEffect()));
+                    _effects = _effects.OrderBy(effect => effect.GetType().Name).ToList();
                 }
                 return _effects;
             }

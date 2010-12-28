@@ -97,13 +97,16 @@
     <Compile Include="EffectFiles\LightStreakEffect.cs" />
     <Compile Include="EffectFiles\MagnifyEffect.cs" />
     <Compile Include="EffectFiles\MonochromeEffect.cs" />
+    <Compile Include="EffectFiles\NoiseEffect.cs" />
     <Compile Include="EffectFiles\PinchEffect.cs" />
     <Compile Include="EffectFiles\PixelateEffect.cs" />
     <Compile Include="EffectFiles\RippleEffect.cs" />
     <Compile Include="EffectFiles\SharpenEffect.cs" />
+    <Compile Include="EffectFiles\ShiftHueEffect.cs" />
     <Compile Include="EffectFiles\SkinBloodEffect.cs" />
     <Compile Include="EffectFiles\SmoothMagnifyEffect.cs" />
     <Compile Include="EffectFiles\SwirlEffect.cs" />
+    <Compile Include="EffectFiles\TileEffect.cs" />
     <Compile Include="EffectFiles\ToneMappingEffect.cs" />
     <Compile Include="EffectFiles\ToonShaderEffect.cs" />
     <Compile Include="EffectFiles\ZoomBlurEffect.cs" />
@@ -142,6 +145,9 @@
   </ItemGroup>
   <ItemGroup>
     <Effect Include="ShaderSource\SkinBloodEffect.fx" />
+    <Effect Include="ShaderSource\NoiseEffect.fx" />
+    <Effect Include="ShaderSource\ShiftHueEffect.fx" />
+    <Effect Include="ShaderSource\TileEffect.fx" />
     <None Include="ShaderSource\Ripple.fx" />
   </ItemGroup>
   <ItemGroup>
@@ -173,7 +179,11 @@
     <Resource Include="Textures\BloodTexture.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ShaderSource\Ripple.ps" />
+    <Resource Include="ShaderSource\Ripple.ps" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Textures\SimplexTexture.png" />
+    <Resource Include="Textures\SimplexPermTexture.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EffectCompile" Condition="'@(Effect)' != '' ">

@@ -25,6 +25,7 @@
         /// This helper sets "ImplicitInput" as the default, meaning the default
         /// sampler is whatever the rendering of the element it's being applied to is.
         /// </summary>
+        [System.ComponentModel.BrowsableAttribute(false)]
         public Brush Input
         {
             get
