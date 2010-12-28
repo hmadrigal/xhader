@@ -44,6 +44,9 @@ namespace ShaderEffectLibrary
             pixelShader.UriSource = Global.MakePackUri("ShaderSource/HatchingEffect.ps");
         }
 
+        /// <summary>
+        /// Default Constructor
+        /// </summary>
         public HatchingEffect()
         {
             this.PixelShader = pixelShader;
@@ -69,6 +72,9 @@ namespace ShaderEffectLibrary
 
         #region Dependency Properties
 
+        /// <summary>
+        /// Input Brush
+        /// </summary>
         [System.ComponentModel.BrowsableAttribute(false)]
         public Brush Input
         {
@@ -76,12 +82,17 @@ namespace ShaderEffectLibrary
             set { SetValue(InputProperty, value); }
         }
 
-        // Brush-valued properties turn into sampler-property in the shader.
-        // This helper sets "ImplicitInput" as the default, meaning the default
-        // sampler is whatever the rendering of the element it's being applied to is.
+        /// <summary>
+        /// Brush-valued properties turn into sampler-property in the shader.
+        /// This helper sets "ImplicitInput" as the default, meaning the default
+        /// sampler is whatever the rendering of the element it's being applied to is.
+        /// </summary>
         public static readonly DependencyProperty InputProperty =
             ShaderEffect.RegisterPixelShaderSamplerProperty("Input", typeof(HatchingEffect), 0);
-
+        
+        /// <summary>
+        /// Light Tone Texture
+        /// </summary>
         [System.ComponentModel.BrowsableAttribute(false)]
         public Brush LightToneTexture
         {
@@ -89,12 +100,17 @@ namespace ShaderEffectLibrary
             set { SetValue(LightToneTextureProperty, value); }
         }
 
-        // Brush-valued properties turn into sampler-property in the shader.
-        // This helper sets "ImplicitInput" as the default, meaning the default
-        // sampler is whatever the rendering of the element it's being applied to is.
+        /// <summary>
+        /// Brush-valued properties turn into sampler-property in the shader.
+        /// This helper sets "ImplicitInput" as the default, meaning the default
+        /// sampler is whatever the rendering of the element it's being applied to is.
+        /// </summary>
         public static readonly DependencyProperty LightToneTextureProperty =
             ShaderEffect.RegisterPixelShaderSamplerProperty("LightToneTexture", typeof(HatchingEffect), 1);
 
+        /// <summary>
+        /// Middle Tone Texture
+        /// </summary>
         [System.ComponentModel.BrowsableAttribute(false)]
         public Brush MiddleToneTexture
         {
@@ -102,12 +118,17 @@ namespace ShaderEffectLibrary
             set { SetValue(MiddleToneTextureProperty, value); }
         }
 
-        // Brush-valued properties turn into sampler-property in the shader.
-        // This helper sets "ImplicitInput" as the default, meaning the default
-        // sampler is whatever the rendering of the element it's being applied to is.
+        /// <summary>
+        /// Brush-valued properties turn into sampler-property in the shader.
+        /// This helper sets "ImplicitInput" as the default, meaning the default
+        /// sampler is whatever the rendering of the element it's being applied to is.
+        /// </summary>
         public static readonly DependencyProperty MiddleToneTextureProperty =
             ShaderEffect.RegisterPixelShaderSamplerProperty("MiddleToneTexture", typeof(HatchingEffect), 2);
 
+        /// <summary>
+        /// Dark Tone Texture
+        /// </summary>
         [System.ComponentModel.BrowsableAttribute(false)]
         public Brush DarkToneTexture
         {
@@ -115,9 +136,11 @@ namespace ShaderEffectLibrary
             set { SetValue(DarkToneTextureProperty, value); }
         }
 
-        // Brush-valued properties turn into sampler-property in the shader.
-        // This helper sets "ImplicitInput" as the default, meaning the default
-        // sampler is whatever the rendering of the element it's being applied to is.
+        /// <summary>
+        /// Brush-valued properties turn into sampler-property in the shader.
+        /// This helper sets "ImplicitInput" as the default, meaning the default
+        /// sampler is whatever the rendering of the element it's being applied to is.
+        /// </summary>
         public static readonly DependencyProperty DarkToneTextureProperty =
             ShaderEffect.RegisterPixelShaderSamplerProperty("DarkToneTexture", typeof(HatchingEffect), 3);
 
@@ -133,8 +156,10 @@ namespace ShaderEffectLibrary
             set { SetValue(TransparentToneThresholdProperty, value); }
         }
 
-        // Scalar-valued properties turn into shader constants with the register
-        // number sent into PixelShaderConstantCallback().
+        /// <summary>
+        /// Scalar-valued properties turn into shader constants with the register
+        /// number sent into PixelShaderConstantCallback().
+        /// </summary>
         public static readonly DependencyProperty TransparentToneThresholdProperty =
             DependencyProperty.Register("TransparentToneThreshold", typeof(double), typeof(HatchingEffect),
                     new PropertyMetadata(4.0, PixelShaderConstantCallback(0)));
@@ -148,8 +173,10 @@ namespace ShaderEffectLibrary
             set { SetValue(LightToneThresholdProperty, value); }
         }
 
-        // Scalar-valued properties turn into shader constants with the register
-        // number sent into PixelShaderConstantCallback().
+        /// <summary>
+        /// Scalar-valued properties turn into shader constants with the register
+        /// number sent into PixelShaderConstantCallback().
+        /// </summary>
         public static readonly DependencyProperty LightToneThresholdProperty =
             DependencyProperty.Register("LightToneThreshold", typeof(double), typeof(HatchingEffect),
                     new PropertyMetadata(3.0, PixelShaderConstantCallback(1)));
@@ -163,8 +190,10 @@ namespace ShaderEffectLibrary
             set { SetValue(MiddleToneThresholdProperty, value); }
         }
 
-        // Scalar-valued properties turn into shader constants with the register
-        // number sent into PixelShaderConstantCallback().
+        /// <summary>
+        /// Scalar-valued properties turn into shader constants with the register
+        /// number sent into PixelShaderConstantCallback().
+        /// </summary>
         public static readonly DependencyProperty MiddleToneThresholdProperty =
             DependencyProperty.Register("MiddleToneThreshold", typeof(double), typeof(HatchingEffect),
                     new PropertyMetadata(2.0, PixelShaderConstantCallback(2)));
@@ -178,8 +207,10 @@ namespace ShaderEffectLibrary
             set { SetValue(DarkToneThresholdProperty, value); }
         }
 
-        // Scalar-valued properties turn into shader constants with the register
-        // number sent into PixelShaderConstantCallback().
+        /// <summary>
+        /// Scalar-valued properties turn into shader constants with the register
+        /// number sent into PixelShaderConstantCallback().
+        /// </summary>
         public static readonly DependencyProperty DarkToneThresholdProperty =
             DependencyProperty.Register("DarkToneThreshold", typeof(double), typeof(HatchingEffect),
                     new PropertyMetadata(1.0, PixelShaderConstantCallback(3)));

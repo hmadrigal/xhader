@@ -272,6 +272,7 @@ namespace ExtensibleDemoApp
                     _effects.Add(new EffectViewItem(new ShaderEffectLibrary.ToneMappingEffect()));
                     _effects.Add(new EffectViewItem(new ShaderEffectLibrary.ToonShaderEffect()));
                     _effects.Add(new EffectViewItem(new ShaderEffectLibrary.ZoomBlurEffect()));
+                    _effects.Add(new EffectViewItem(new ShaderEffectLibrary.SkinBloodEffect()));
 
                 }
                 return _effects;

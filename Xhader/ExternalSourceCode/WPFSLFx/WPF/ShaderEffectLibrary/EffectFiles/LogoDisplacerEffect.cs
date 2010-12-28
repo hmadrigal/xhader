@@ -17,11 +17,17 @@ namespace ShaderEffectLibrary
     {
         #region Constructors
 
+        /// <summary>
+        /// Statict Constructor
+        /// </summary>
         static LogoDisplacerEffect()
         {
             _pixelShader.UriSource = Global.MakePackUri("ShaderSource/LogoDisplacerEffect.ps");
         }
 
+        /// <summary>
+        /// Default Constructor
+        /// </summary>
         public LogoDisplacerEffect()
         {
             this.PixelShader = _pixelShader;
@@ -116,7 +122,9 @@ namespace ShaderEffectLibrary
         #endregion
 
         #region Member Data
-
+        /// <summary>
+        /// 
+        /// </summary>
         private static PixelShader _pixelShader = new PixelShader();
 
         #endregion
