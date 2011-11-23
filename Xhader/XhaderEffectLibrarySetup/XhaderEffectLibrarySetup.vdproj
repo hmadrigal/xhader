@@ -15,8 +15,80 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_05EFD3E978A7BCF5AFAA5E16D9607ABB"
+        "OwnerKey" = "8:_35647483958C49A8A15A85F2D80864B6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_0615A377C0BB4DDEA9DEEB80DB2D0A54"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1689E2EF3DC454189728416392E67EBE"
+        "OwnerKey" = "8:_B734B58F6EDD8D2BF4907680AF6BC72F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1689E2EF3DC454189728416392E67EBE"
+        "OwnerKey" = "8:_7F977DA94AAF481F9094D19B9678385B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1689E2EF3DC454189728416392E67EBE"
+        "OwnerKey" = "8:_69166920F9DE4479AA113DBE6AE08210"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1689E2EF3DC454189728416392E67EBE"
+        "OwnerKey" = "8:_C352A850D0AC48442628F7CDC25395EA"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_18D05423572ABB4A228243E50837C274"
+        "OwnerKey" = "8:_35647483958C49A8A15A85F2D80864B6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_18D05423572ABB4A228243E50837C274"
+        "OwnerKey" = "8:_B1AE0260C4A049838710AEBC9DD64F93"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_18D05423572ABB4A228243E50837C274"
+        "OwnerKey" = "8:_7F977DA94AAF481F9094D19B9678385B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_18D05423572ABB4A228243E50837C274"
+        "OwnerKey" = "8:_69166920F9DE4479AA113DBE6AE08210"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_18D05423572ABB4A228243E50837C274"
+        "OwnerKey" = "8:_9FED0F30B8DE51F0A017F5DDD95CE0A5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1991105E5305AB068D9D92884B3397AE"
+        "OwnerKey" = "8:_7F977DA94AAF481F9094D19B9678385B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1E455AC1E561B6598286E66B600526B3"
+        "OwnerKey" = "8:_69166920F9DE4479AA113DBE6AE08210"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -27,68 +99,26 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_3791F7BC92E0C49BE7C875EDD5D0F46D"
-        "OwnerKey" = "8:_35647483958C49A8A15A85F2D80864B6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3791F7BC92E0C49BE7C875EDD5D0F46D"
-        "OwnerKey" = "8:_B1AE0260C4A049838710AEBC9DD64F93"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3791F7BC92E0C49BE7C875EDD5D0F46D"
-        "OwnerKey" = "8:_7F977DA94AAF481F9094D19B9678385B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3791F7BC92E0C49BE7C875EDD5D0F46D"
+        "MsmKey" = "8:_3FED2E85EC73F399684FF00CCDB8523B"
         "OwnerKey" = "8:_69166920F9DE4479AA113DBE6AE08210"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_3791F7BC92E0C49BE7C875EDD5D0F46D"
-        "OwnerKey" = "8:_4A4FB1101A0A0560F10E87BA020FCAE8"
+        "MsmKey" = "8:_3FED2E85EC73F399684FF00CCDB8523B"
+        "OwnerKey" = "8:_7F977DA94AAF481F9094D19B9678385B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3FED2E85EC73F399684FF00CCDB8523B"
+        "OwnerKey" = "8:_C352A850D0AC48442628F7CDC25395EA"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_442E5CD04B584250955A5DF6443A358B"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4A4FB1101A0A0560F10E87BA020FCAE8"
-        "OwnerKey" = "8:_35647483958C49A8A15A85F2D80864B6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4A4FB1101A0A0560F10E87BA020FCAE8"
-        "OwnerKey" = "8:_B1AE0260C4A049838710AEBC9DD64F93"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4A4FB1101A0A0560F10E87BA020FCAE8"
-        "OwnerKey" = "8:_7F977DA94AAF481F9094D19B9678385B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4A4FB1101A0A0560F10E87BA020FCAE8"
-        "OwnerKey" = "8:_69166920F9DE4479AA113DBE6AE08210"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4F62CCF08FB10F642D740C949BFF5B84"
-        "OwnerKey" = "8:_7F977DA94AAF481F9094D19B9678385B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -105,20 +135,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_6952F1BFA1EA4CEB92686F0C6913D08D"
-        "OwnerKey" = "8:_B1AE0260C4A049838710AEBC9DD64F93"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_7F977DA94AAF481F9094D19B9678385B"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_8409AEC5BE2FAD0BEA9F307DD20FDC95"
-        "OwnerKey" = "8:_69166920F9DE4479AA113DBE6AE08210"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -129,37 +147,25 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_99E3F5456970C3E1178C53D849DF5907"
+        "MsmKey" = "8:_9FED0F30B8DE51F0A017F5DDD95CE0A5"
         "OwnerKey" = "8:_35647483958C49A8A15A85F2D80864B6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_99E3F5456970C3E1178C53D849DF5907"
-        "OwnerKey" = "8:_4F62CCF08FB10F642D740C949BFF5B84"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_99E3F5456970C3E1178C53D849DF5907"
-        "OwnerKey" = "8:_8409AEC5BE2FAD0BEA9F307DD20FDC95"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_99E3F5456970C3E1178C53D849DF5907"
+        "MsmKey" = "8:_9FED0F30B8DE51F0A017F5DDD95CE0A5"
         "OwnerKey" = "8:_B1AE0260C4A049838710AEBC9DD64F93"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_99E3F5456970C3E1178C53D849DF5907"
+        "MsmKey" = "8:_9FED0F30B8DE51F0A017F5DDD95CE0A5"
         "OwnerKey" = "8:_7F977DA94AAF481F9094D19B9678385B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_99E3F5456970C3E1178C53D849DF5907"
+        "MsmKey" = "8:_9FED0F30B8DE51F0A017F5DDD95CE0A5"
         "OwnerKey" = "8:_69166920F9DE4479AA113DBE6AE08210"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -171,14 +177,56 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_EDE2E81FB391476F87CCD196812CE4D1"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_B734B58F6EDD8D2BF4907680AF6BC72F"
+        "OwnerKey" = "8:_69166920F9DE4479AA113DBE6AE08210"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F39164C5C36550AC736BD17B04AE2717"
-        "OwnerKey" = "8:_35647483958C49A8A15A85F2D80864B6"
+        "MsmKey" = "8:_B734B58F6EDD8D2BF4907680AF6BC72F"
+        "OwnerKey" = "8:_7F977DA94AAF481F9094D19B9678385B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B734B58F6EDD8D2BF4907680AF6BC72F"
+        "OwnerKey" = "8:_C352A850D0AC48442628F7CDC25395EA"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C352A850D0AC48442628F7CDC25395EA"
+        "OwnerKey" = "8:_69166920F9DE4479AA113DBE6AE08210"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C352A850D0AC48442628F7CDC25395EA"
+        "OwnerKey" = "8:_1991105E5305AB068D9D92884B3397AE"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C352A850D0AC48442628F7CDC25395EA"
+        "OwnerKey" = "8:_7F977DA94AAF481F9094D19B9678385B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C352A850D0AC48442628F7CDC25395EA"
+        "OwnerKey" = "8:_1E455AC1E561B6598286E66B600526B3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DA552F96296A2D431237E4E2900F040A"
+        "OwnerKey" = "8:_B1AE0260C4A049838710AEBC9DD64F93"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EDE2E81FB391476F87CCD196812CE4D1"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -190,31 +238,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_6952F1BFA1EA4CEB92686F0C6913D08D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4F62CCF08FB10F642D740C949BFF5B84"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8409AEC5BE2FAD0BEA9F307DD20FDC95"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F39164C5C36550AC736BD17B04AE2717"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_B1AE0260C4A049838710AEBC9DD64F93"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_DA552F96296A2D431237E4E2900F040A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -226,7 +256,43 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_1991105E5305AB068D9D92884B3397AE"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_69166920F9DE4479AA113DBE6AE08210"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_1E455AC1E561B6598286E66B600526B3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_C352A850D0AC48442628F7CDC25395EA"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_B734B58F6EDD8D2BF4907680AF6BC72F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_1689E2EF3DC454189728416392E67EBE"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_3FED2E85EC73F399684FF00CCDB8523B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -244,19 +310,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_99E3F5456970C3E1178C53D849DF5907"
+        "OwnerKey" = "8:_05EFD3E978A7BCF5AFAA5E16D9607ABB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4A4FB1101A0A0560F10E87BA020FCAE8"
+        "OwnerKey" = "8:_9FED0F30B8DE51F0A017F5DDD95CE0A5"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3791F7BC92E0C49BE7C875EDD5D0F46D"
+        "OwnerKey" = "8:_18D05423572ABB4A228243E50837C274"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -364,14 +430,76 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3791F7BC92E0C49BE7C875EDD5D0F46D"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_05EFD3E978A7BCF5AFAA5E16D9607ABB"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:WPFShaderEffectLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_05EFD3E978A7BCF5AFAA5E16D9607ABB"
+                    {
+                    "Name" = "8:WPFShaderEffectLibrary.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:WPFShaderEffectLibrary.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_FA64779469A84AF8A63A63DECFFB7A0E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1689E2EF3DC454189728416392E67EBE"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Xml, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_1689E2EF3DC454189728416392E67EBE"
+                    {
+                    "Name" = "8:System.Xml.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Xml.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_F6EDCA3B0DC14C1D809E475647AA61D7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_18D05423572ABB4A228243E50837C274"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_3791F7BC92E0C49BE7C875EDD5D0F46D"
+                    "_18D05423572ABB4A228243E50837C274"
                     {
                     "Name" = "8:Microsoft.Windows.Design.Extensibility.dll"
                     "Attributes" = "3:512"
@@ -395,65 +523,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_442E5CD04B584250955A5DF6443A358B"
-            {
-            "SourcePath" = "8:License.rtf"
-            "TargetName" = "8:License.rtf"
-            "Tag" = "8:"
-            "Folder" = "8:_0153F3A0EFAF4CE89F349833D3DBEE8B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4A4FB1101A0A0560F10E87BA020FCAE8"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.Windows.Design.Interaction, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_4A4FB1101A0A0560F10E87BA020FCAE8"
-                    {
-                    "Name" = "8:Microsoft.Windows.Design.Interaction.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Microsoft.Windows.Design.Interaction.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_F6EDCA3B0DC14C1D809E475647AA61D7"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4F62CCF08FB10F642D740C949BFF5B84"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1991105E5305AB068D9D92884B3397AE"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:SLShaderEffectLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_4F62CCF08FB10F642D740C949BFF5B84"
+                    "_1991105E5305AB068D9D92884B3397AE"
                     {
                     "Name" = "8:SLShaderEffectLibrary.dll"
                     "Attributes" = "3:512"
@@ -477,45 +554,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6952F1BFA1EA4CEB92686F0C6913D08D"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:WPFTransitionEffects, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_6952F1BFA1EA4CEB92686F0C6913D08D"
-                    {
-                    "Name" = "8:WPFTransitionEffects.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:WPFTransitionEffects.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_FA64779469A84AF8A63A63DECFFB7A0E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8409AEC5BE2FAD0BEA9F307DD20FDC95"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1E455AC1E561B6598286E66B600526B3"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:SLTransitionEffects, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_8409AEC5BE2FAD0BEA9F307DD20FDC95"
+                    "_1E455AC1E561B6598286E66B600526B3"
                     {
                     "Name" = "8:SLTransitionEffects.dll"
                     "Attributes" = "3:512"
@@ -539,14 +585,127 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_99E3F5456970C3E1178C53D849DF5907"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3FED2E85EC73F399684FF00CCDB8523B"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Net, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_3FED2E85EC73F399684FF00CCDB8523B"
+                    {
+                    "Name" = "8:System.Net.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Net.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_F6EDCA3B0DC14C1D809E475647AA61D7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_442E5CD04B584250955A5DF6443A358B"
+            {
+            "SourcePath" = "8:License.rtf"
+            "TargetName" = "8:License.rtf"
+            "Tag" = "8:"
+            "Folder" = "8:_0153F3A0EFAF4CE89F349833D3DBEE8B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9FED0F30B8DE51F0A017F5DDD95CE0A5"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Microsoft.Windows.Design.Interaction, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_9FED0F30B8DE51F0A017F5DDD95CE0A5"
+                    {
+                    "Name" = "8:Microsoft.Windows.Design.Interaction.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Microsoft.Windows.Design.Interaction.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_F6EDCA3B0DC14C1D809E475647AA61D7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B734B58F6EDD8D2BF4907680AF6BC72F"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Runtime.Serialization, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_B734B58F6EDD8D2BF4907680AF6BC72F"
+                    {
+                    "Name" = "8:System.Runtime.Serialization.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Runtime.Serialization.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_F6EDCA3B0DC14C1D809E475647AA61D7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C352A850D0AC48442628F7CDC25395EA"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:System.Windows, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_99E3F5456970C3E1178C53D849DF5907"
+                    "_C352A850D0AC48442628F7CDC25395EA"
                     {
                     "Name" = "8:System.Windows.dll"
                     "Attributes" = "3:512"
@@ -570,20 +729,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F39164C5C36550AC736BD17B04AE2717"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_DA552F96296A2D431237E4E2900F040A"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:WPFShaderEffectLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:WPFTransitionEffects, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_F39164C5C36550AC736BD17B04AE2717"
+                    "_DA552F96296A2D431237E4E2900F040A"
                     {
-                    "Name" = "8:WPFShaderEffectLibrary.dll"
+                    "Name" = "8:WPFTransitionEffects.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:WPFShaderEffectLibrary.dll"
+            "SourcePath" = "8:WPFTransitionEffects.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_FA64779469A84AF8A63A63DECFFB7A0E"
@@ -871,6 +1030,134 @@
                                                                                             "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_24EE01E5624A4B60B157C17D4693FD28"
                                                                                             {
                                                                                             "Name" = "8:(Default)"
+                                                                                            "Condition" = "8:"
+                                                                                            "Transitive" = "11:FALSE"
+                                                                                            "ValueTypes" = "3:1"
+                                                                                            "Value" = "8:[ProgramFilesFolder][ProductName]\\Silverlight"
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                                "Values"
+                                                                                {
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                        "Values"
+                                                                        {
+                                                                        }
+                                                                    }
+                                                                }
+                                                                "Values"
+                                                                {
+                                                                }
+                                                            }
+                                                        }
+                                                        "Values"
+                                                        {
+                                                        }
+                                                    }
+                                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_5D14E6D019DF4A9CBB514B2F04011E28"
+                                                    {
+                                                    "Name" = "8:4.0"
+                                                    "Condition" = "8:"
+                                                    "AlwaysCreate" = "11:FALSE"
+                                                    "DeleteAtUninstall" = "11:FALSE"
+                                                    "Transitive" = "11:FALSE"
+                                                        "Keys"
+                                                        {
+                                                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_E6E28ABE2E2B4598BEE2311CFF729C50"
+                                                            {
+                                                            "Name" = "8:Toolbox"
+                                                            "Condition" = "8:"
+                                                            "AlwaysCreate" = "11:FALSE"
+                                                            "DeleteAtUninstall" = "11:FALSE"
+                                                            "Transitive" = "11:FALSE"
+                                                                "Keys"
+                                                                {
+                                                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_AE3B9D5239E142079C9C1AA0F71CAD23"
+                                                                    {
+                                                                    "Name" = "8:.NETFramework"
+                                                                    "Condition" = "8:"
+                                                                    "AlwaysCreate" = "11:FALSE"
+                                                                    "DeleteAtUninstall" = "11:FALSE"
+                                                                    "Transitive" = "11:FALSE"
+                                                                        "Keys"
+                                                                        {
+                                                                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_26002A5A700646809B807A3245FDF875"
+                                                                            {
+                                                                            "Name" = "8:v4.0"
+                                                                            "Condition" = "8:"
+                                                                            "AlwaysCreate" = "11:FALSE"
+                                                                            "DeleteAtUninstall" = "11:FALSE"
+                                                                            "Transitive" = "11:FALSE"
+                                                                                "Keys"
+                                                                                {
+                                                                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_5F44B45C3FBC40AE8E4C38B8930CBD5A"
+                                                                                    {
+                                                                                    "Name" = "8:XhaderEffectLibrary"
+                                                                                    "Condition" = "8:"
+                                                                                    "AlwaysCreate" = "11:FALSE"
+                                                                                    "DeleteAtUninstall" = "11:FALSE"
+                                                                                    "Transitive" = "11:FALSE"
+                                                                                        "Keys"
+                                                                                        {
+                                                                                        }
+                                                                                        "Values"
+                                                                                        {
+                                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_956AB9B434CF4E0A90604DF13BBC428B"
+                                                                                            {
+                                                                                            "Name" = "8:"
+                                                                                            "Condition" = "8:"
+                                                                                            "Transitive" = "11:FALSE"
+                                                                                            "ValueTypes" = "3:1"
+                                                                                            "Value" = "8:[ProgramFilesFolder][ProductName]\\WPF"
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                                "Values"
+                                                                                {
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                        "Values"
+                                                                        {
+                                                                        }
+                                                                    }
+                                                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_FA313C446B0941D187A63BC9FF05E16C"
+                                                                    {
+                                                                    "Name" = "8:Silverlight"
+                                                                    "Condition" = "8:"
+                                                                    "AlwaysCreate" = "11:FALSE"
+                                                                    "DeleteAtUninstall" = "11:FALSE"
+                                                                    "Transitive" = "11:FALSE"
+                                                                        "Keys"
+                                                                        {
+                                                                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_B6DB87AB1F8343A0AB65949C3E07BFC0"
+                                                                            {
+                                                                            "Name" = "8:v4.0"
+                                                                            "Condition" = "8:"
+                                                                            "AlwaysCreate" = "11:FALSE"
+                                                                            "DeleteAtUninstall" = "11:FALSE"
+                                                                            "Transitive" = "11:FALSE"
+                                                                                "Keys"
+                                                                                {
+                                                                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_2074D276A669485883C0C393D0D5F4EE"
+                                                                                    {
+                                                                                    "Name" = "8:XhaderEffectLibrary"
+                                                                                    "Condition" = "8:"
+                                                                                    "AlwaysCreate" = "11:FALSE"
+                                                                                    "DeleteAtUninstall" = "11:FALSE"
+                                                                                    "Transitive" = "11:FALSE"
+                                                                                        "Keys"
+                                                                                        {
+                                                                                        }
+                                                                                        "Values"
+                                                                                        {
+                                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_8B9C6F5BD0BE46E9BF317BDB3FB7C79F"
+                                                                                            {
+                                                                                            "Name" = "8:"
                                                                                             "Condition" = "8:"
                                                                                             "Transitive" = "11:FALSE"
                                                                                             "ValueTypes" = "3:1"
@@ -1426,7 +1713,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_0615A377C0BB4DDEA9DEEB80DB2D0A54"
             {
-            "SourcePath" = "8:..\\ExternalSourceCode\\WPFSLFx\\SL\\SLTransitionEffects\\obj\\Release\\SLTransitionEffects.dll"
+            "SourcePath" = "8:..\\ExternalSourceCode\\WPFSLFx\\SL\\SLTransitionEffects\\obj\\Debug\\SLTransitionEffects.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_47DD98B44ABB4931BE52BE17DFDA7A1D"
@@ -1454,7 +1741,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_35647483958C49A8A15A85F2D80864B6"
             {
-            "SourcePath" = "8:..\\WPFShaderEffectLibrary.Design\\obj\\Release\\WPFShaderEffectLibrary.Design.dll"
+            "SourcePath" = "8:..\\WPFShaderEffectLibrary.Design\\obj\\Debug\\WPFShaderEffectLibrary.Design.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_FA64779469A84AF8A63A63DECFFB7A0E"
@@ -1482,7 +1769,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_64BF17428D2A46229F06B14BE9945C45"
             {
-            "SourcePath" = "8:..\\ExternalSourceCode\\WPFSLFx\\WPF\\TransitionEffects\\obj\\Release\\WPFTransitionEffects.dll"
+            "SourcePath" = "8:..\\ExternalSourceCode\\WPFSLFx\\WPF\\TransitionEffects\\obj\\Debug\\WPFTransitionEffects.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9E2BC5EDECAE4D98852991353512226C"
@@ -1510,7 +1797,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_69166920F9DE4479AA113DBE6AE08210"
             {
-            "SourcePath" = "8:..\\SLTransitionEffects.Design\\obj\\Release\\SLTransitionEffects.Design.dll"
+            "SourcePath" = "8:..\\SLTransitionEffects.Design\\obj\\Debug\\SLTransitionEffects.Design.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_F6EDCA3B0DC14C1D809E475647AA61D7"
@@ -1538,7 +1825,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7F977DA94AAF481F9094D19B9678385B"
             {
-            "SourcePath" = "8:..\\SLShaderEffectLibrary.Design\\obj\\Release\\SLShaderEffectLibrary.Design.dll"
+            "SourcePath" = "8:..\\SLShaderEffectLibrary.Design\\obj\\Debug\\SLShaderEffectLibrary.Design.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_F6EDCA3B0DC14C1D809E475647AA61D7"
@@ -1566,7 +1853,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8479571CD01F4C4684FD79B561CB248C"
             {
-            "SourcePath" = "8:..\\ExternalSourceCode\\WPFSLFx\\WPF\\ShaderEffectLibrary\\obj\\Release\\WPFShaderEffectLibrary.dll"
+            "SourcePath" = "8:..\\ExternalSourceCode\\WPFSLFx\\WPF\\ShaderEffectLibrary\\obj\\Debug\\WPFShaderEffectLibrary.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9E2BC5EDECAE4D98852991353512226C"
@@ -1594,7 +1881,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_B1AE0260C4A049838710AEBC9DD64F93"
             {
-            "SourcePath" = "8:..\\WPFTransitionEffects.Design\\obj\\Release\\WPFTransitionEffects.Design.dll"
+            "SourcePath" = "8:..\\WPFTransitionEffects.Design\\obj\\Debug\\WPFTransitionEffects.Design.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_FA64779469A84AF8A63A63DECFFB7A0E"
@@ -1622,7 +1909,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_EDE2E81FB391476F87CCD196812CE4D1"
             {
-            "SourcePath" = "8:..\\ExternalSourceCode\\WPFSLFx\\SL\\SLShaderEffectLibrary\\obj\\Release\\SLShaderEffectLibrary.dll"
+            "SourcePath" = "8:..\\ExternalSourceCode\\WPFSLFx\\SL\\SLShaderEffectLibrary\\obj\\Debug\\SLShaderEffectLibrary.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_47DD98B44ABB4931BE52BE17DFDA7A1D"
