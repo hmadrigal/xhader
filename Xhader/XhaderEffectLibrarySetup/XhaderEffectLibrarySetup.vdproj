@@ -15,12 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_05EFD3E978A7BCF5AFAA5E16D9607ABB"
-        "OwnerKey" = "8:_35647483958C49A8A15A85F2D80864B6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_0615A377C0BB4DDEA9DEEB80DB2D0A54"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -81,13 +75,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_1991105E5305AB068D9D92884B3397AE"
-        "OwnerKey" = "8:_7F977DA94AAF481F9094D19B9678385B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_1E455AC1E561B6598286E66B600526B3"
+        "MsmKey" = "8:_1A6A0DA32DBF2A96622B7EF1920CF9BA"
         "OwnerKey" = "8:_69166920F9DE4479AA113DBE6AE08210"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -123,6 +111,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_581F2CE37A0835FC8F26D68B98B132CF"
+        "OwnerKey" = "8:_35647483958C49A8A15A85F2D80864B6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_64BF17428D2A46229F06B14BE9945C45"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -131,6 +125,12 @@
         {
         "MsmKey" = "8:_69166920F9DE4479AA113DBE6AE08210"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6A2334F0799B352512CE0F28C83F1A5D"
+        "OwnerKey" = "8:_7F977DA94AAF481F9094D19B9678385B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -171,6 +171,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_A1E6ADB8886AC8B312364BB852E2E23A"
+        "OwnerKey" = "8:_B1AE0260C4A049838710AEBC9DD64F93"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_B1AE0260C4A049838710AEBC9DD64F93"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -202,25 +208,19 @@
         "Entry"
         {
         "MsmKey" = "8:_C352A850D0AC48442628F7CDC25395EA"
-        "OwnerKey" = "8:_1991105E5305AB068D9D92884B3397AE"
+        "OwnerKey" = "8:_6A2334F0799B352512CE0F28C83F1A5D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C352A850D0AC48442628F7CDC25395EA"
+        "OwnerKey" = "8:_1A6A0DA32DBF2A96622B7EF1920CF9BA"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_C352A850D0AC48442628F7CDC25395EA"
         "OwnerKey" = "8:_7F977DA94AAF481F9094D19B9678385B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C352A850D0AC48442628F7CDC25395EA"
-        "OwnerKey" = "8:_1E455AC1E561B6598286E66B600526B3"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_DA552F96296A2D431237E4E2900F040A"
-        "OwnerKey" = "8:_B1AE0260C4A049838710AEBC9DD64F93"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -238,13 +238,31 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_B1AE0260C4A049838710AEBC9DD64F93"
+        "OwnerKey" = "8:_A1E6ADB8886AC8B312364BB852E2E23A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_DA552F96296A2D431237E4E2900F040A"
+        "OwnerKey" = "8:_6A2334F0799B352512CE0F28C83F1A5D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_1A6A0DA32DBF2A96622B7EF1920CF9BA"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_581F2CE37A0835FC8F26D68B98B132CF"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_B1AE0260C4A049838710AEBC9DD64F93"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -256,19 +274,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_1991105E5305AB068D9D92884B3397AE"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_69166920F9DE4479AA113DBE6AE08210"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_1E455AC1E561B6598286E66B600526B3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -305,12 +311,6 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_35647483958C49A8A15A85F2D80864B6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_05EFD3E978A7BCF5AFAA5E16D9607ABB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -430,37 +430,6 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_05EFD3E978A7BCF5AFAA5E16D9607ABB"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:WPFShaderEffectLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_05EFD3E978A7BCF5AFAA5E16D9607ABB"
-                    {
-                    "Name" = "8:WPFShaderEffectLibrary.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:WPFShaderEffectLibrary.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_FA64779469A84AF8A63A63DECFFB7A0E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1689E2EF3DC454189728416392E67EBE"
             {
             "AssemblyRegister" = "3:1"
@@ -523,45 +492,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1991105E5305AB068D9D92884B3397AE"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:SLShaderEffectLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_1991105E5305AB068D9D92884B3397AE"
-                    {
-                    "Name" = "8:SLShaderEffectLibrary.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:SLShaderEffectLibrary.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_F6EDCA3B0DC14C1D809E475647AA61D7"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1E455AC1E561B6598286E66B600526B3"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1A6A0DA32DBF2A96622B7EF1920CF9BA"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:SLTransitionEffects, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_1E455AC1E561B6598286E66B600526B3"
+                    "_1A6A0DA32DBF2A96622B7EF1920CF9BA"
                     {
                     "Name" = "8:SLTransitionEffects.dll"
                     "Attributes" = "3:512"
@@ -636,6 +574,68 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_581F2CE37A0835FC8F26D68B98B132CF"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:WPFShaderEffectLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_581F2CE37A0835FC8F26D68B98B132CF"
+                    {
+                    "Name" = "8:WPFShaderEffectLibrary.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:WPFShaderEffectLibrary.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_FA64779469A84AF8A63A63DECFFB7A0E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6A2334F0799B352512CE0F28C83F1A5D"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:SLShaderEffectLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_6A2334F0799B352512CE0F28C83F1A5D"
+                    {
+                    "Name" = "8:SLShaderEffectLibrary.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:SLShaderEffectLibrary.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_F6EDCA3B0DC14C1D809E475647AA61D7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9FED0F30B8DE51F0A017F5DDD95CE0A5"
             {
             "AssemblyRegister" = "3:1"
@@ -653,6 +653,37 @@
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_F6EDCA3B0DC14C1D809E475647AA61D7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A1E6ADB8886AC8B312364BB852E2E23A"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:WPFTransitionEffects, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_A1E6ADB8886AC8B312364BB852E2E23A"
+                    {
+                    "Name" = "8:WPFTransitionEffects.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:WPFTransitionEffects.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_FA64779469A84AF8A63A63DECFFB7A0E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -715,37 +746,6 @@
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_F6EDCA3B0DC14C1D809E475647AA61D7"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_DA552F96296A2D431237E4E2900F040A"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:WPFTransitionEffects, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_DA552F96296A2D431237E4E2900F040A"
-                    {
-                    "Name" = "8:WPFTransitionEffects.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:WPFTransitionEffects.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_FA64779469A84AF8A63A63DECFFB7A0E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -859,25 +859,25 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:XhaderEffectLibrary"
-        "ProductCode" = "8:{224E8A98-B345-4C2E-B9C1-022E18FF6278}"
-        "PackageCode" = "8:{A650DDC5-2CF0-43B9-BBDB-DFB54E44BFEE}"
+        "ProductName" = "8:Xhader"
+        "ProductCode" = "8:{D2F28958-7DFE-417C-8F8A-6F3DF0763CF9}"
+        "PackageCode" = "8:{02F42BC2-1FDA-4A72-BF75-2D9752230DCE}"
         "UpgradeCode" = "8:{34061835-3433-4435-A9CF-FC2AAC395645}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
+        "InstallAllUsers" = "11:TRUE"
+        "ProductVersion" = "8:1.0.1"
         "Manufacturer" = "8:Herberth Madrigal"
         "ARPHELPTELEPHONE" = "8:"
-        "ARPHELPLINK" = "8:"
-        "Title" = "8:XhaderEffectLibrarySetup"
+        "ARPHELPLINK" = "8:http://xhader.codeplex.com/"
+        "Title" = "8:Xhader Effect Library Setup"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Herberth Madrigal"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:Install WPF Shader Effects and Transitions into Microsoft Blend 3.0."
-        "ARPURLINFOABOUT" = "8:http://xhader.codeplex.com/"
+        "ARPURLINFOABOUT" = "8:http://hmadrigal.wordpress.com/"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
@@ -1713,7 +1713,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_0615A377C0BB4DDEA9DEEB80DB2D0A54"
             {
-            "SourcePath" = "8:..\\ExternalSourceCode\\WPFSLFx\\SL\\SLTransitionEffects\\obj\\Debug\\SLTransitionEffects.dll"
+            "SourcePath" = "8:..\\ExternalSourceCode\\WPFSLFx\\SL\\SLTransitionEffects\\obj\\Release\\SLTransitionEffects.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_47DD98B44ABB4931BE52BE17DFDA7A1D"
@@ -1741,7 +1741,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_35647483958C49A8A15A85F2D80864B6"
             {
-            "SourcePath" = "8:..\\WPFShaderEffectLibrary.Design\\obj\\Debug\\WPFShaderEffectLibrary.Design.dll"
+            "SourcePath" = "8:..\\WPFShaderEffectLibrary.Design\\obj\\Release\\WPFShaderEffectLibrary.Design.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_FA64779469A84AF8A63A63DECFFB7A0E"
@@ -1769,7 +1769,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_64BF17428D2A46229F06B14BE9945C45"
             {
-            "SourcePath" = "8:..\\ExternalSourceCode\\WPFSLFx\\WPF\\TransitionEffects\\obj\\Debug\\WPFTransitionEffects.dll"
+            "SourcePath" = "8:..\\ExternalSourceCode\\WPFSLFx\\WPF\\TransitionEffects\\obj\\Release\\WPFTransitionEffects.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9E2BC5EDECAE4D98852991353512226C"
@@ -1797,7 +1797,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_69166920F9DE4479AA113DBE6AE08210"
             {
-            "SourcePath" = "8:..\\SLTransitionEffects.Design\\obj\\Debug\\SLTransitionEffects.Design.dll"
+            "SourcePath" = "8:..\\SLTransitionEffects.Design\\obj\\Release\\SLTransitionEffects.Design.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_F6EDCA3B0DC14C1D809E475647AA61D7"
@@ -1825,7 +1825,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7F977DA94AAF481F9094D19B9678385B"
             {
-            "SourcePath" = "8:..\\SLShaderEffectLibrary.Design\\obj\\Debug\\SLShaderEffectLibrary.Design.dll"
+            "SourcePath" = "8:..\\SLShaderEffectLibrary.Design\\obj\\Release\\SLShaderEffectLibrary.Design.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_F6EDCA3B0DC14C1D809E475647AA61D7"
@@ -1853,7 +1853,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8479571CD01F4C4684FD79B561CB248C"
             {
-            "SourcePath" = "8:..\\ExternalSourceCode\\WPFSLFx\\WPF\\ShaderEffectLibrary\\obj\\Debug\\WPFShaderEffectLibrary.dll"
+            "SourcePath" = "8:..\\ExternalSourceCode\\WPFSLFx\\WPF\\ShaderEffectLibrary\\obj\\Release\\WPFShaderEffectLibrary.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9E2BC5EDECAE4D98852991353512226C"
@@ -1881,7 +1881,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_B1AE0260C4A049838710AEBC9DD64F93"
             {
-            "SourcePath" = "8:..\\WPFTransitionEffects.Design\\obj\\Debug\\WPFTransitionEffects.Design.dll"
+            "SourcePath" = "8:..\\WPFTransitionEffects.Design\\obj\\Release\\WPFTransitionEffects.Design.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_FA64779469A84AF8A63A63DECFFB7A0E"
@@ -1909,7 +1909,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_EDE2E81FB391476F87CCD196812CE4D1"
             {
-            "SourcePath" = "8:..\\ExternalSourceCode\\WPFSLFx\\SL\\SLShaderEffectLibrary\\obj\\Debug\\SLShaderEffectLibrary.dll"
+            "SourcePath" = "8:..\\ExternalSourceCode\\WPFSLFx\\SL\\SLShaderEffectLibrary\\obj\\Release\\SLShaderEffectLibrary.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_47DD98B44ABB4931BE52BE17DFDA7A1D"
